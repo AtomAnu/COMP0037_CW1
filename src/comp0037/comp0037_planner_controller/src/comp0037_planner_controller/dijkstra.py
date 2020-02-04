@@ -72,13 +72,23 @@ class DijkstraPlanner(CellBasedForwardSearch):
         
         return total_angle
 
+    def computeCost(self, cell):
+        parentCell = cell.parent
+        cost = 0
+        while (parentCell is not None):
+            cost = cost + self.computeLStageAdditiveCost(parentCell, cell)
+            cell = parentCell
+            parentCell = parentCell.parent
+        
+        return cost
+
     def insert(self, cell):
         if len(self.fifoQueue) == 0:
             self.fifoQueue.append(cell)
         else:
             index = -1
             for i in range(len(self.fifoQueue)):
-                if self.computeLStageAdditiveCost(cell, self.goal) <= self.computeLStageAdditiveCost(self.fifoQueue[i], self.goal):
+                if self.computeCost(cell) <= self.computeCost(self.fifoQueue[i]):
                     index = i
                     break
             if index == -1:

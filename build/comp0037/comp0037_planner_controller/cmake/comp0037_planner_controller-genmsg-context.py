@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
+services_str = "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
 pkg_name = "comp0037_planner_controller"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

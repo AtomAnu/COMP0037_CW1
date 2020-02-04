@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "comp0037_resources"
-PROJECT_SPACE_DIR = "/home/ros_user/cw1/install"
+PROJECT_SPACE_DIR = "/home/ros_user/COMP0037_CW1/install"
 PROJECT_VERSION = "0.0.0"

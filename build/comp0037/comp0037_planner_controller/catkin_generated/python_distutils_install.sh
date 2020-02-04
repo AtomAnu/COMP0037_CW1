@@ -14,20 +14,20 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller"
+echo_and_run cd "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/ros_user/cw1/install/lib/python2.7/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/ros_user/COMP0037_CW1/install/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/ros_user/cw1/install/lib/python2.7/dist-packages:/home/ros_user/cw1/build/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/ros_user/cw1/build" \
+    PYTHONPATH="/home/ros_user/COMP0037_CW1/install/lib/python2.7/dist-packages:/home/ros_user/COMP0037_CW1/build/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/ros_user/COMP0037_CW1/build" \
     "/usr/bin/python" \
-    "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/setup.py" \
-    build --build-base "/home/ros_user/cw1/build/comp0037/comp0037_planner_controller" \
+    "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/setup.py" \
+    build --build-base "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller" \
     install \
     $DESTDIR_ARG \
-    --install-layout=deb --prefix="/home/ros_user/cw1/install" --install-scripts="/home/ros_user/cw1/install/bin"
+    --install-layout=deb --prefix="/home/ros_user/COMP0037_CW1/install" --install-scripts="/home/ros_user/COMP0037_CW1/install/bin"

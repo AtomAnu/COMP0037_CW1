@@ -17,9 +17,9 @@ add_custom_target(comp0037_planner_controller_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
+get_filename_component(_filename "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
 add_custom_target(_comp0037_planner_controller_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "comp0037_planner_controller" "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "comp0037_planner_controller" "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_comp0037_planner_controller_generate_messages_check_deps_${_f
 
 ### Generating Services
 _generate_srv_cpp(comp0037_planner_controller
-  "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
+  "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/comp0037_planner_controller
@@ -49,7 +49,7 @@ add_custom_target(comp0037_planner_controller_generate_messages_cpp
 add_dependencies(comp0037_planner_controller_generate_messages comp0037_planner_controller_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
+get_filename_component(_filename "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
 add_dependencies(comp0037_planner_controller_generate_messages_cpp _comp0037_planner_controller_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS comp0037_planner_controller_generat
 
 ### Generating Services
 _generate_srv_eus(comp0037_planner_controller
-  "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
+  "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/comp0037_planner_controller
@@ -82,7 +82,7 @@ add_custom_target(comp0037_planner_controller_generate_messages_eus
 add_dependencies(comp0037_planner_controller_generate_messages comp0037_planner_controller_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
+get_filename_component(_filename "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
 add_dependencies(comp0037_planner_controller_generate_messages_eus _comp0037_planner_controller_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS comp0037_planner_controller_generat
 
 ### Generating Services
 _generate_srv_lisp(comp0037_planner_controller
-  "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
+  "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/comp0037_planner_controller
@@ -115,7 +115,7 @@ add_custom_target(comp0037_planner_controller_generate_messages_lisp
 add_dependencies(comp0037_planner_controller_generate_messages comp0037_planner_controller_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
+get_filename_component(_filename "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
 add_dependencies(comp0037_planner_controller_generate_messages_lisp _comp0037_planner_controller_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS comp0037_planner_controller_generat
 
 ### Generating Services
 _generate_srv_nodejs(comp0037_planner_controller
-  "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
+  "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/comp0037_planner_controller
@@ -148,7 +148,7 @@ add_custom_target(comp0037_planner_controller_generate_messages_nodejs
 add_dependencies(comp0037_planner_controller_generate_messages comp0037_planner_controller_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
+get_filename_component(_filename "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
 add_dependencies(comp0037_planner_controller_generate_messages_nodejs _comp0037_planner_controller_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS comp0037_planner_controller_generat
 
 ### Generating Services
 _generate_srv_py(comp0037_planner_controller
-  "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
+  "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/comp0037_planner_controller
@@ -181,7 +181,7 @@ add_custom_target(comp0037_planner_controller_generate_messages_py
 add_dependencies(comp0037_planner_controller_generate_messages comp0037_planner_controller_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
+get_filename_component(_filename "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv" NAME_WE)
 add_dependencies(comp0037_planner_controller_generate_messages_py _comp0037_planner_controller_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

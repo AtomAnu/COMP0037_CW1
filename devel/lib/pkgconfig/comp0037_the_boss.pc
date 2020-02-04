@@ -1,8 +1,8 @@
-prefix=/home/ros_user/cw1/devel
+prefix=/home/ros_user/COMP0037_CW1/devel
 
 Name: comp0037_the_boss
 Description: Description of comp0037_the_boss
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/ros_user/cw1/devel/lib 
+Libs: -L/home/ros_user/COMP0037_CW1/devel/lib 
 Requires: 

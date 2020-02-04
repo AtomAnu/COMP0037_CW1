@@ -104,7 +104,7 @@ class DijkstraPlanner(CellBasedForwardSearch):
         # self.fifoQueue.append(cell)
 
         # changes
-        self.insert(cell)
+        self.compare_cells(cell)
         self.updateMaxQueueLength(1)
         #..........
 
@@ -125,3 +125,14 @@ class DijkstraPlanner(CellBasedForwardSearch):
     def resolveDuplicate(self, cell, parentCell):
         # Nothing to do in self case
         pass
+
+    def compare_cells(self, cell_to_compare):
+        #check for duplicate cells and select the one with the smallest cost to the queue
+        for cell in self.fifoQueue:
+            if cell_to_compare.coords == cell.coords:
+                removed_cell = self.fifoQueue.remove(cell)
+                if self.computeCost(cell_to_compare) <= self.computeCost(removed_cell):
+                    self.insert(cell_to_compare)
+                else:
+                    self.insert(cell)
+

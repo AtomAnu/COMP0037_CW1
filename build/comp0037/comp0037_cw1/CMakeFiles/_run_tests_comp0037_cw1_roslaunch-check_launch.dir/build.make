@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 # Utility rule file for _run_tests_comp0037_cw1_roslaunch-check_launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros_user/cw1/build
 include comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/progress.make
 
 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch:
-	cd /home/ros_user/cw1/build/comp0037/comp0037_cw1 && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ros_user/cw1/build/test_results/comp0037_cw1/roslaunch-check_launch.xml "/usr/bin/cmake -E make_directory /home/ros_user/cw1/build/test_results/comp0037_cw1" "/opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/ros_user/cw1/build/test_results/comp0037_cw1/roslaunch-check_launch.xml' '/home/ros_user/cw1/src/comp0037/comp0037_cw1/launch' "
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1 && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ros_user/COMP0037_CW1/build/test_results/comp0037_cw1/roslaunch-check_launch.xml "/usr/bin/cmake -E make_directory /home/ros_user/COMP0037_CW1/build/test_results/comp0037_cw1" "/opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/ros_user/COMP0037_CW1/build/test_results/comp0037_cw1/roslaunch-check_launch.xml' '/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_cw1/launch' "
 
 _run_tests_comp0037_cw1_roslaunch-check_launch: comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch
 _run_tests_comp0037_cw1_roslaunch-check_launch: comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/build.make
@@ -67,10 +67,10 @@ comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/build
 
 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/clean:
-	cd /home/ros_user/cw1/build/comp0037/comp0037_cw1 && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/cmake_clean.cmake
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1 && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/cmake_clean.cmake
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/clean
 
 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/cw1/src /home/ros_user/cw1/src/comp0037/comp0037_cw1 /home/ros_user/cw1/build /home/ros_user/cw1/build/comp0037/comp0037_cw1 /home/ros_user/cw1/build/comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/COMP0037_CW1/src /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_cw1 /home/ros_user/COMP0037_CW1/build /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1 /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/depend
 

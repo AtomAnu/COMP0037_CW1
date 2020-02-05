@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 # Utility rule file for _comp0037_planner_controller_generate_messages_check_deps_Goal.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros_user/cw1/build
 include comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/progress.make
 
 comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal:
-	cd /home/ros_user/cw1/build/comp0037/comp0037_planner_controller && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py comp0037_planner_controller /home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv 
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py comp0037_planner_controller /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv 
 
 _comp0037_planner_controller_generate_messages_check_deps_Goal: comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal
 _comp0037_planner_controller_generate_messages_check_deps_Goal: comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/build.make
@@ -67,10 +67,10 @@ comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_gen
 .PHONY : comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/build
 
 comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/clean:
-	cd /home/ros_user/cw1/build/comp0037/comp0037_planner_controller && $(CMAKE_COMMAND) -P CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/cmake_clean.cmake
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller && $(CMAKE_COMMAND) -P CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/cmake_clean.cmake
 .PHONY : comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/clean
 
 comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/cw1/src /home/ros_user/cw1/src/comp0037/comp0037_planner_controller /home/ros_user/cw1/build /home/ros_user/cw1/build/comp0037/comp0037_planner_controller /home/ros_user/cw1/build/comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/COMP0037_CW1/src /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller /home/ros_user/COMP0037_CW1/build /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : comp0037/comp0037_planner_controller/CMakeFiles/_comp0037_planner_controller_generate_messages_check_deps_Goal.dir/depend
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdr_microphone_sensor.dir/src/sensors/microphone.cpp.o"
-  "/home/ros_user/cw1/devel/lib/libstdr_microphone_sensor.pdb"
-  "/home/ros_user/cw1/devel/lib/libstdr_microphone_sensor.so"
+  "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_microphone_sensor.pdb"
+  "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_microphone_sensor.so"
 )
 
 # Per-language clean rules from dependency scanning.

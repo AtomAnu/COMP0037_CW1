@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/map_loader.h
+/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/map_loader.h
 stdio.h
 -
 stdlib.h
@@ -18,17 +18,17 @@ fstream
 string
 -
 ros/ros.h
-/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/ros/ros.h
+/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/ros/ros.h
 map_server/image_loader.h
-/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/map_server/image_loader.h
+/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/map_server/image_loader.h
 nav_msgs/MapMetaData.h
-/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/nav_msgs/MapMetaData.h
+/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/nav_msgs/MapMetaData.h
 yaml-cpp/yaml.h
-/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/yaml-cpp/yaml.h
+/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/yaml-cpp/yaml.h
 
-/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/src/map_loader.cpp
+/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/src/map_loader.cpp
 stdr_server/map_loader.h
-/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/src/stdr_server/map_loader.h
+/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/src/stdr_server/map_loader.h
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string

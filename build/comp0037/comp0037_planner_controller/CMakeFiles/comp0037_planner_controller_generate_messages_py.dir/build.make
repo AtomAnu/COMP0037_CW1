@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 # Utility rule file for comp0037_planner_controller_generate_messages_py.
 
 # Include the progress variables for this target.
 include comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/progress.make
 
-comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py: /home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/_Goal.py
-comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py: /home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/__init__.py
+comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py: /home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/_Goal.py
+comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py: /home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/__init__.py
 
 
-/home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/_Goal.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/_Goal.py: /home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV comp0037_planner_controller/Goal"
-	cd /home/ros_user/cw1/build/comp0037/comp0037_planner_controller && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p comp0037_planner_controller -o /home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv
+/home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/_Goal.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/_Goal.py: /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV comp0037_planner_controller/Goal"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p comp0037_planner_controller -o /home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv
 
-/home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/__init__.py: /home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/_Goal.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for comp0037_planner_controller"
-	cd /home/ros_user/cw1/build/comp0037/comp0037_planner_controller && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv --initpy
+/home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/__init__.py: /home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/_Goal.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for comp0037_planner_controller"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv --initpy
 
 comp0037_planner_controller_generate_messages_py: comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py
-comp0037_planner_controller_generate_messages_py: /home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/_Goal.py
-comp0037_planner_controller_generate_messages_py: /home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/__init__.py
+comp0037_planner_controller_generate_messages_py: /home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/_Goal.py
+comp0037_planner_controller_generate_messages_py: /home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/srv/__init__.py
 comp0037_planner_controller_generate_messages_py: comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/build.make
 
 .PHONY : comp0037_planner_controller_generate_messages_py
@@ -80,10 +80,10 @@ comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_gene
 .PHONY : comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/build
 
 comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/clean:
-	cd /home/ros_user/cw1/build/comp0037/comp0037_planner_controller && $(CMAKE_COMMAND) -P CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller && $(CMAKE_COMMAND) -P CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/clean
 
 comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/cw1/src /home/ros_user/cw1/src/comp0037/comp0037_planner_controller /home/ros_user/cw1/build /home/ros_user/cw1/build/comp0037/comp0037_planner_controller /home/ros_user/cw1/build/comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/COMP0037_CW1/src /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller /home/ros_user/COMP0037_CW1/build /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : comp0037/comp0037_planner_controller/CMakeFiles/comp0037_planner_controller_generate_messages_py.dir/depend
 

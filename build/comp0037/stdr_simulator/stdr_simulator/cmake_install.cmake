@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_simulator
+# Install script for directory: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros_user/cw1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros_user/COMP0037_CW1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_simulator" TYPE FILE FILES "/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_simulator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_simulator" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_simulator/package.xml")
 endif()
 

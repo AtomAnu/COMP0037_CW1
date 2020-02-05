@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/cw1/build/CMakeFiles /home/ros_user/cw1/build/comp0037/comp0037_cw1/CMakeFiles/progress.marks
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/cw1/build/CMakeFiles 0
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/COMP0037_CW1/build/CMakeFiles /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1/CMakeFiles/progress.marks
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/COMP0037_CW1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/clean
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/preinstall
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/preinstall
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/rule
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ run_tests_comp0037_cw1_roslaunch-check: comp0037/comp0037_cw1/CMakeFiles/run_tes
 
 # fast build rule for target.
 run_tests_comp0037_cw1_roslaunch-check/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/build.make comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/build.make comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/build
 .PHONY : run_tests_comp0037_cw1_roslaunch-check/fast
 
 # Convenience name for target.
 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/rule
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ _run_tests_comp0037_cw1_roslaunch-check_launch: comp0037/comp0037_cw1/CMakeFiles
 
 # fast build rule for target.
 _run_tests_comp0037_cw1_roslaunch-check_launch/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/build.make comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/build.make comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check_launch.dir/build
 .PHONY : _run_tests_comp0037_cw1_roslaunch-check_launch/fast
 
 # Convenience name for target.
 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1.dir/rule
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _run_tests_comp0037_cw1: comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw
 
 # fast build rule for target.
 _run_tests_comp0037_cw1/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1.dir/build.make comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1.dir/build.make comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1.dir/build
 .PHONY : _run_tests_comp0037_cw1/fast
 
 # Convenience name for target.
 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check.dir/rule
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ _run_tests_comp0037_cw1_roslaunch-check: comp0037/comp0037_cw1/CMakeFiles/_run_t
 
 # fast build rule for target.
 _run_tests_comp0037_cw1_roslaunch-check/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check.dir/build.make comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check.dir/build.make comp0037/comp0037_cw1/CMakeFiles/_run_tests_comp0037_cw1_roslaunch-check.dir/build
 .PHONY : _run_tests_comp0037_cw1_roslaunch-check/fast
 
 # Convenience name for target.
 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1.dir/rule
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ run_tests_comp0037_cw1: comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1.
 
 # fast build rule for target.
 run_tests_comp0037_cw1/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1.dir/build.make comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1.dir/build.make comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1.dir/build
 .PHONY : run_tests_comp0037_cw1/fast
 
 # Convenience name for target.
 comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ _catkin_empty_exported_target: comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_ex
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/build.make comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/build.make comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/rule
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ clean_test_results_comp0037_cw1: comp0037/comp0037_cw1/CMakeFiles/clean_test_res
 
 # fast build rule for target.
 clean_test_results_comp0037_cw1/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/build.make comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/build.make comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/build
 .PHONY : clean_test_results_comp0037_cw1/fast
 
 # Convenience name for target.
 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check_launch.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check_launch.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check_launch.dir/rule
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check_launch.dir/rule
 
 # Convenience name for target.
@@ -282,7 +282,7 @@ run_tests_comp0037_cw1_roslaunch-check_launch: comp0037/comp0037_cw1/CMakeFiles/
 
 # fast build rule for target.
 run_tests_comp0037_cw1_roslaunch-check_launch/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check_launch.dir/build.make comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check_launch.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check_launch.dir/build.make comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check_launch.dir/build
 .PHONY : run_tests_comp0037_cw1_roslaunch-check_launch/fast
 
 # Help Target
@@ -317,6 +317,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

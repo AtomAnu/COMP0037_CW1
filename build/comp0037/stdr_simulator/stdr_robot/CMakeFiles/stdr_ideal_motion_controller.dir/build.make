@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 # Include any dependencies generated for this target.
 include comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/depend.make
@@ -58,17 +58,17 @@ include comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controll
 include comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/flags.make
 
 comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.o: comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/flags.make
-comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_robot/src/motion/ideal_motion_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_robot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_robot/src/motion/ideal_motion_controller.cpp
+comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_robot/src/motion/ideal_motion_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_robot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_robot/src/motion/ideal_motion_controller.cpp
 
 comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_robot/src/motion/ideal_motion_controller.cpp > CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_robot/src/motion/ideal_motion_controller.cpp > CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.i
 
 comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_robot/src/motion/ideal_motion_controller.cpp -o CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_robot/src/motion/ideal_motion_controller.cpp -o CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.s
 
 comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.o.requires:
 
@@ -88,51 +88,51 @@ stdr_ideal_motion_controller_OBJECTS = \
 # External object files for target stdr_ideal_motion_controller
 stdr_ideal_motion_controller_EXTERNAL_OBJECTS =
 
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.o
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/build.make
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libbondcpp.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/libPocoFoundation.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libtf.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libtf2.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /home/ros_user/cw1/devel/lib/libstdr_parser.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libroslib.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/librospack.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/librostime.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so: comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_robot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stdr_ideal_motion_controller.dir/link.txt --verbose=$(VERBOSE)
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/src/motion/ideal_motion_controller.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/build.make
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libbondcpp.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/libPocoFoundation.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libtf.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libtf2.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /home/ros_user/COMP0037_CW1/devel/lib/libstdr_parser.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libroslib.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/librospack.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/librostime.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so: comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_robot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stdr_ideal_motion_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/build: /home/ros_user/cw1/devel/lib/libstdr_ideal_motion_controller.so
+comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/build: /home/ros_user/COMP0037_CW1/devel/lib/libstdr_ideal_motion_controller.so
 
 .PHONY : comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/build
 
@@ -141,10 +141,10 @@ comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/r
 .PHONY : comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/requires
 
 comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/clean:
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_robot && $(CMAKE_COMMAND) -P CMakeFiles/stdr_ideal_motion_controller.dir/cmake_clean.cmake
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_robot && $(CMAKE_COMMAND) -P CMakeFiles/stdr_ideal_motion_controller.dir/cmake_clean.cmake
 .PHONY : comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/clean
 
 comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/cw1/src /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_robot /home/ros_user/cw1/build /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_robot /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/COMP0037_CW1/src /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_robot /home/ros_user/COMP0037_CW1/build /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_robot /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : comp0037/stdr_simulator/stdr_robot/CMakeFiles/stdr_ideal_motion_controller.dir/depend
 

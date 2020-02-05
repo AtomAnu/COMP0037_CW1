@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/load_map.dir/src/map_loader_node.cpp.o"
-  "/home/ros_user/cw1/devel/lib/stdr_server/load_map.pdb"
-  "/home/ros_user/cw1/devel/lib/stdr_server/load_map"
+  "/home/ros_user/COMP0037_CW1/devel/lib/stdr_server/load_map.pdb"
+  "/home/ros_user/COMP0037_CW1/devel/lib/stdr_server/load_map"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server
+# Install script for directory: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros_user/cw1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros_user/COMP0037_CW1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_server/catkin_generated/installspace/stdr_server.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_server/catkin_generated/installspace/stdr_server.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_server/cmake" TYPE FILE FILES
-    "/home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_server/catkin_generated/installspace/stdr_serverConfig.cmake"
-    "/home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_server/catkin_generated/installspace/stdr_serverConfig-version.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_server/catkin_generated/installspace/stdr_serverConfig.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_server/catkin_generated/installspace/stdr_serverConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_server" TYPE FILE FILES "/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_server" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_map_loader.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ros_user/cw1/devel/lib/libstdr_map_loader.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_map_loader.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_map_loader.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_map_loader.so")
     file(RPATH_CHANGE
@@ -74,12 +74,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_map_server.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ros_user/cw1/devel/lib/libstdr_map_server.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_map_server.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_map_server.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_map_server.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_map_server.so"
-         OLD_RPATH "/opt/ros/kinetic/lib:/home/ros_user/cw1/devel/lib:"
+         OLD_RPATH "/opt/ros/kinetic/lib:/home/ros_user/COMP0037_CW1/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_map_server.so")
@@ -94,12 +94,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_server.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ros_user/cw1/devel/lib/libstdr_server.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_server.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_server.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_server.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_server.so"
-         OLD_RPATH "/opt/ros/kinetic/lib:/home/ros_user/cw1/devel/lib:"
+         OLD_RPATH "/opt/ros/kinetic/lib:/home/ros_user/COMP0037_CW1/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_server.so")
@@ -114,12 +114,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_server/stdr_server_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/stdr_server" TYPE EXECUTABLE FILES "/home/ros_user/cw1/devel/lib/stdr_server/stdr_server_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/stdr_server" TYPE EXECUTABLE FILES "/home/ros_user/COMP0037_CW1/devel/lib/stdr_server/stdr_server_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_server/stdr_server_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_server/stdr_server_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_server/stdr_server_node"
-         OLD_RPATH "/opt/ros/kinetic/lib:/home/ros_user/cw1/devel/lib:"
+         OLD_RPATH "/opt/ros/kinetic/lib:/home/ros_user/COMP0037_CW1/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_server/stdr_server_node")
@@ -134,12 +134,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_server/load_map"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/stdr_server" TYPE EXECUTABLE FILES "/home/ros_user/cw1/devel/lib/stdr_server/load_map")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/stdr_server" TYPE EXECUTABLE FILES "/home/ros_user/COMP0037_CW1/devel/lib/stdr_server/load_map")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_server/load_map" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_server/load_map")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_server/load_map"
-         OLD_RPATH "/opt/ros/kinetic/lib:/home/ros_user/cw1/devel/lib:"
+         OLD_RPATH "/opt/ros/kinetic/lib:/home/ros_user/COMP0037_CW1/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_server/load_map")
@@ -148,12 +148,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/stdr_server" TYPE FILE FILES "/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/map_loader.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/stdr_server" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/include/stdr_server/map_loader.h")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_server/test/cmake_install.cmake")
+  include("/home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_server/test/cmake_install.cmake")
 
 endif()
 

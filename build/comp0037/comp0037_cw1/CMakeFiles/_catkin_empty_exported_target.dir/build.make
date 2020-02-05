@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/build: _catki
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/ros_user/cw1/build/comp0037/comp0037_cw1 && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1 && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/cw1/src /home/ros_user/cw1/src/comp0037/comp0037_cw1 /home/ros_user/cw1/build /home/ros_user/cw1/build/comp0037/comp0037_cw1 /home/ros_user/cw1/build/comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/COMP0037_CW1/src /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_cw1 /home/ros_user/COMP0037_CW1/build /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1 /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

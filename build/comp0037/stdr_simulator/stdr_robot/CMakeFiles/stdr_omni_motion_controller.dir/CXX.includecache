@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros_user/cw1/devel/include/stdr_msgs/KinematicMsg.h
+/home/ros_user/COMP0037_CW1/devel/include/stdr_msgs/KinematicMsg.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_robot/include/stdr_robot/motion/motion_controller_base.h
+/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_robot/include/stdr_robot/motion/motion_controller_base.h
 ros/ros.h
 -
 tf/transform_broadcaster.h
@@ -36,11 +36,11 @@ stdr_msgs/KinematicMsg.h
 ctime
 -
 
-/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_robot/include/stdr_robot/motion/omni_motion_controller.h
+/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_robot/include/stdr_robot/motion/omni_motion_controller.h
 stdr_robot/motion/motion_controller_base.h
 -
 
-/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_robot/src/motion/omni_motion_controller.cpp
+/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_robot/src/motion/omni_motion_controller.cpp
 stdr_robot/motion/omni_motion_controller.h
 -
 

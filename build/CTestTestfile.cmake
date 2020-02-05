@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ros_user/cw1/src
-# Build directory: /home/ros_user/cw1/build
+# Source directory: /home/ros_user/COMP0037_CW1/src
+# Build directory: /home/ros_user/COMP0037_CW1/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

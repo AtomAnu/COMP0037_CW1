@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdr_robot_nodelet.dir/src/stdr_robot.cpp.o"
-  "/home/ros_user/cw1/devel/lib/libstdr_robot_nodelet.pdb"
-  "/home/ros_user/cw1/devel/lib/libstdr_robot_nodelet.so"
+  "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_robot_nodelet.pdb"
+  "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_robot_nodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

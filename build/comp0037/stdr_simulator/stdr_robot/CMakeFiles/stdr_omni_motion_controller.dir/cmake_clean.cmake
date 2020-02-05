@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdr_omni_motion_controller.dir/src/motion/omni_motion_controller.cpp.o"
-  "/home/ros_user/cw1/devel/lib/libstdr_omni_motion_controller.pdb"
-  "/home/ros_user/cw1/devel/lib/libstdr_omni_motion_controller.so"
+  "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_omni_motion_controller.pdb"
+  "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_omni_motion_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.

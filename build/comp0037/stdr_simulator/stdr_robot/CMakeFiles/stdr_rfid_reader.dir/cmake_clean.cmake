@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdr_rfid_reader.dir/src/sensors/rfid_reader.cpp.o"
-  "/home/ros_user/cw1/devel/lib/libstdr_rfid_reader.pdb"
-  "/home/ros_user/cw1/devel/lib/libstdr_rfid_reader.so"
+  "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_rfid_reader.pdb"
+  "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_rfid_reader.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui
+# Install script for directory: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros_user/cw1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros_user/COMP0037_CW1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,24 +33,24 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/catkin_generated/installspace/stdr_gui.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/catkin_generated/installspace/stdr_gui.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_gui/cmake" TYPE FILE FILES
-    "/home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/catkin_generated/installspace/stdr_guiConfig.cmake"
-    "/home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/catkin_generated/installspace/stdr_guiConfig-version.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/catkin_generated/installspace/stdr_guiConfig.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/catkin_generated/installspace/stdr_guiConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_gui" TYPE FILE FILES "/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_gui" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_gui" TYPE DIRECTORY FILES
-    "/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/launch"
-    "/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/resources"
+    "/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/launch"
+    "/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/resources"
     )
 endif()
 
@@ -61,12 +61,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_gui/stdr_gui_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/stdr_gui" TYPE EXECUTABLE FILES "/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/stdr_gui" TYPE EXECUTABLE FILES "/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_gui/stdr_gui_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_gui/stdr_gui_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_gui/stdr_gui_node"
-         OLD_RPATH "/home/ros_user/cw1/devel/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/ros_user/COMP0037_CW1/devel/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stdr_gui/stdr_gui_node")

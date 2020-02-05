@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/cw1/build/CMakeFiles /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_parser/CMakeFiles/progress.marks
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_parser/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/cw1/build/CMakeFiles 0
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/COMP0037_CW1/build/CMakeFiles /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_parser/CMakeFiles/progress.marks
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_parser/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/COMP0037_CW1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_parser/clean
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_parser/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_parser/preinstall
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_parser/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_parser/preinstall
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_parser/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/rule
 .PHONY : comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ stdr_parser: comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/rule
 
 # fast build rule for target.
 stdr_parser/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build
 .PHONY : stdr_parser/fast
 
 src/stdr_parser.o: src/stdr_parser.cpp.o
@@ -186,7 +186,7 @@ src/stdr_parser.o: src/stdr_parser.cpp.o
 
 # target to build an object file
 src/stdr_parser.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser.cpp.o
 .PHONY : src/stdr_parser.cpp.o
 
 src/stdr_parser.i: src/stdr_parser.cpp.i
@@ -195,7 +195,7 @@ src/stdr_parser.i: src/stdr_parser.cpp.i
 
 # target to preprocess a source file
 src/stdr_parser.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser.cpp.i
 .PHONY : src/stdr_parser.cpp.i
 
 src/stdr_parser.s: src/stdr_parser.cpp.s
@@ -204,7 +204,7 @@ src/stdr_parser.s: src/stdr_parser.cpp.s
 
 # target to generate assembly for a file
 src/stdr_parser.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser.cpp.s
 .PHONY : src/stdr_parser.cpp.s
 
 src/stdr_parser_msg_creator.o: src/stdr_parser_msg_creator.cpp.o
@@ -213,7 +213,7 @@ src/stdr_parser_msg_creator.o: src/stdr_parser_msg_creator.cpp.o
 
 # target to build an object file
 src/stdr_parser_msg_creator.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_msg_creator.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_msg_creator.cpp.o
 .PHONY : src/stdr_parser_msg_creator.cpp.o
 
 src/stdr_parser_msg_creator.i: src/stdr_parser_msg_creator.cpp.i
@@ -222,7 +222,7 @@ src/stdr_parser_msg_creator.i: src/stdr_parser_msg_creator.cpp.i
 
 # target to preprocess a source file
 src/stdr_parser_msg_creator.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_msg_creator.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_msg_creator.cpp.i
 .PHONY : src/stdr_parser_msg_creator.cpp.i
 
 src/stdr_parser_msg_creator.s: src/stdr_parser_msg_creator.cpp.s
@@ -231,7 +231,7 @@ src/stdr_parser_msg_creator.s: src/stdr_parser_msg_creator.cpp.s
 
 # target to generate assembly for a file
 src/stdr_parser_msg_creator.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_msg_creator.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_msg_creator.cpp.s
 .PHONY : src/stdr_parser_msg_creator.cpp.s
 
 src/stdr_parser_node.o: src/stdr_parser_node.cpp.o
@@ -240,7 +240,7 @@ src/stdr_parser_node.o: src/stdr_parser_node.cpp.o
 
 # target to build an object file
 src/stdr_parser_node.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_node.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_node.cpp.o
 .PHONY : src/stdr_parser_node.cpp.o
 
 src/stdr_parser_node.i: src/stdr_parser_node.cpp.i
@@ -249,7 +249,7 @@ src/stdr_parser_node.i: src/stdr_parser_node.cpp.i
 
 # target to preprocess a source file
 src/stdr_parser_node.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_node.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_node.cpp.i
 .PHONY : src/stdr_parser_node.cpp.i
 
 src/stdr_parser_node.s: src/stdr_parser_node.cpp.s
@@ -258,7 +258,7 @@ src/stdr_parser_node.s: src/stdr_parser_node.cpp.s
 
 # target to generate assembly for a file
 src/stdr_parser_node.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_node.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_node.cpp.s
 .PHONY : src/stdr_parser_node.cpp.s
 
 src/stdr_parser_specs.o: src/stdr_parser_specs.cpp.o
@@ -267,7 +267,7 @@ src/stdr_parser_specs.o: src/stdr_parser_specs.cpp.o
 
 # target to build an object file
 src/stdr_parser_specs.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_specs.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_specs.cpp.o
 .PHONY : src/stdr_parser_specs.cpp.o
 
 src/stdr_parser_specs.i: src/stdr_parser_specs.cpp.i
@@ -276,7 +276,7 @@ src/stdr_parser_specs.i: src/stdr_parser_specs.cpp.i
 
 # target to preprocess a source file
 src/stdr_parser_specs.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_specs.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_specs.cpp.i
 .PHONY : src/stdr_parser_specs.cpp.i
 
 src/stdr_parser_specs.s: src/stdr_parser_specs.cpp.s
@@ -285,7 +285,7 @@ src/stdr_parser_specs.s: src/stdr_parser_specs.cpp.s
 
 # target to generate assembly for a file
 src/stdr_parser_specs.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_specs.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_specs.cpp.s
 .PHONY : src/stdr_parser_specs.cpp.s
 
 src/stdr_parser_tools.o: src/stdr_parser_tools.cpp.o
@@ -294,7 +294,7 @@ src/stdr_parser_tools.o: src/stdr_parser_tools.cpp.o
 
 # target to build an object file
 src/stdr_parser_tools.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_tools.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_tools.cpp.o
 .PHONY : src/stdr_parser_tools.cpp.o
 
 src/stdr_parser_tools.i: src/stdr_parser_tools.cpp.i
@@ -303,7 +303,7 @@ src/stdr_parser_tools.i: src/stdr_parser_tools.cpp.i
 
 # target to preprocess a source file
 src/stdr_parser_tools.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_tools.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_tools.cpp.i
 .PHONY : src/stdr_parser_tools.cpp.i
 
 src/stdr_parser_tools.s: src/stdr_parser_tools.cpp.s
@@ -312,7 +312,7 @@ src/stdr_parser_tools.s: src/stdr_parser_tools.cpp.s
 
 # target to generate assembly for a file
 src/stdr_parser_tools.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_tools.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_tools.cpp.s
 .PHONY : src/stdr_parser_tools.cpp.s
 
 src/stdr_parser_validator.o: src/stdr_parser_validator.cpp.o
@@ -321,7 +321,7 @@ src/stdr_parser_validator.o: src/stdr_parser_validator.cpp.o
 
 # target to build an object file
 src/stdr_parser_validator.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_validator.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_validator.cpp.o
 .PHONY : src/stdr_parser_validator.cpp.o
 
 src/stdr_parser_validator.i: src/stdr_parser_validator.cpp.i
@@ -330,7 +330,7 @@ src/stdr_parser_validator.i: src/stdr_parser_validator.cpp.i
 
 # target to preprocess a source file
 src/stdr_parser_validator.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_validator.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_validator.cpp.i
 .PHONY : src/stdr_parser_validator.cpp.i
 
 src/stdr_parser_validator.s: src/stdr_parser_validator.cpp.s
@@ -339,7 +339,7 @@ src/stdr_parser_validator.s: src/stdr_parser_validator.cpp.s
 
 # target to generate assembly for a file
 src/stdr_parser_validator.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_validator.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_validator.cpp.s
 .PHONY : src/stdr_parser_validator.cpp.s
 
 src/stdr_parser_xml_file_writer.o: src/stdr_parser_xml_file_writer.cpp.o
@@ -348,7 +348,7 @@ src/stdr_parser_xml_file_writer.o: src/stdr_parser_xml_file_writer.cpp.o
 
 # target to build an object file
 src/stdr_parser_xml_file_writer.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_xml_file_writer.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_xml_file_writer.cpp.o
 .PHONY : src/stdr_parser_xml_file_writer.cpp.o
 
 src/stdr_parser_xml_file_writer.i: src/stdr_parser_xml_file_writer.cpp.i
@@ -357,7 +357,7 @@ src/stdr_parser_xml_file_writer.i: src/stdr_parser_xml_file_writer.cpp.i
 
 # target to preprocess a source file
 src/stdr_parser_xml_file_writer.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_xml_file_writer.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_xml_file_writer.cpp.i
 .PHONY : src/stdr_parser_xml_file_writer.cpp.i
 
 src/stdr_parser_xml_file_writer.s: src/stdr_parser_xml_file_writer.cpp.s
@@ -366,7 +366,7 @@ src/stdr_parser_xml_file_writer.s: src/stdr_parser_xml_file_writer.cpp.s
 
 # target to generate assembly for a file
 src/stdr_parser_xml_file_writer.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_xml_file_writer.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_xml_file_writer.cpp.s
 .PHONY : src/stdr_parser_xml_file_writer.cpp.s
 
 src/stdr_parser_yaml_file_writer.o: src/stdr_parser_yaml_file_writer.cpp.o
@@ -375,7 +375,7 @@ src/stdr_parser_yaml_file_writer.o: src/stdr_parser_yaml_file_writer.cpp.o
 
 # target to build an object file
 src/stdr_parser_yaml_file_writer.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_yaml_file_writer.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_yaml_file_writer.cpp.o
 .PHONY : src/stdr_parser_yaml_file_writer.cpp.o
 
 src/stdr_parser_yaml_file_writer.i: src/stdr_parser_yaml_file_writer.cpp.i
@@ -384,7 +384,7 @@ src/stdr_parser_yaml_file_writer.i: src/stdr_parser_yaml_file_writer.cpp.i
 
 # target to preprocess a source file
 src/stdr_parser_yaml_file_writer.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_yaml_file_writer.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_yaml_file_writer.cpp.i
 .PHONY : src/stdr_parser_yaml_file_writer.cpp.i
 
 src/stdr_parser_yaml_file_writer.s: src/stdr_parser_yaml_file_writer.cpp.s
@@ -393,7 +393,7 @@ src/stdr_parser_yaml_file_writer.s: src/stdr_parser_yaml_file_writer.cpp.s
 
 # target to generate assembly for a file
 src/stdr_parser_yaml_file_writer.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_yaml_file_writer.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_parser_yaml_file_writer.cpp.s
 .PHONY : src/stdr_parser_yaml_file_writer.cpp.s
 
 src/stdr_xml_parser.o: src/stdr_xml_parser.cpp.o
@@ -402,7 +402,7 @@ src/stdr_xml_parser.o: src/stdr_xml_parser.cpp.o
 
 # target to build an object file
 src/stdr_xml_parser.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_xml_parser.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_xml_parser.cpp.o
 .PHONY : src/stdr_xml_parser.cpp.o
 
 src/stdr_xml_parser.i: src/stdr_xml_parser.cpp.i
@@ -411,7 +411,7 @@ src/stdr_xml_parser.i: src/stdr_xml_parser.cpp.i
 
 # target to preprocess a source file
 src/stdr_xml_parser.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_xml_parser.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_xml_parser.cpp.i
 .PHONY : src/stdr_xml_parser.cpp.i
 
 src/stdr_xml_parser.s: src/stdr_xml_parser.cpp.s
@@ -420,7 +420,7 @@ src/stdr_xml_parser.s: src/stdr_xml_parser.cpp.s
 
 # target to generate assembly for a file
 src/stdr_xml_parser.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_xml_parser.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_xml_parser.cpp.s
 .PHONY : src/stdr_xml_parser.cpp.s
 
 src/stdr_yaml_parser.o: src/stdr_yaml_parser.cpp.o
@@ -429,7 +429,7 @@ src/stdr_yaml_parser.o: src/stdr_yaml_parser.cpp.o
 
 # target to build an object file
 src/stdr_yaml_parser.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_yaml_parser.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_yaml_parser.cpp.o
 .PHONY : src/stdr_yaml_parser.cpp.o
 
 src/stdr_yaml_parser.i: src/stdr_yaml_parser.cpp.i
@@ -438,7 +438,7 @@ src/stdr_yaml_parser.i: src/stdr_yaml_parser.cpp.i
 
 # target to preprocess a source file
 src/stdr_yaml_parser.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_yaml_parser.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_yaml_parser.cpp.i
 .PHONY : src/stdr_yaml_parser.cpp.i
 
 src/stdr_yaml_parser.s: src/stdr_yaml_parser.cpp.s
@@ -447,7 +447,7 @@ src/stdr_yaml_parser.s: src/stdr_yaml_parser.cpp.s
 
 # target to generate assembly for a file
 src/stdr_yaml_parser.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_yaml_parser.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make comp0037/stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/src/stdr_yaml_parser.cpp.s
 .PHONY : src/stdr_yaml_parser.cpp.s
 
 # Help Target
@@ -505,6 +505,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 # Utility rule file for run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros_user/cw1/build
 include comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/progress.make
 
 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch:
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_server/test && ../../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ros_user/cw1/build/test_results/stdr_server/rostest-test_functional_interfaces_test.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server --package=stdr_server --results-filename test_functional_interfaces_test.xml --results-base-dir \"/home/ros_user/cw1/build/test_results\" /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/test/functional/interfaces_test.launch "
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_server/test && ../../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ros_user/COMP0037_CW1/build/test_results/stdr_server/rostest-test_functional_interfaces_test.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server --package=stdr_server --results-filename test_functional_interfaces_test.xml --results-base-dir \"/home/ros_user/COMP0037_CW1/build/test_results\" /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/test/functional/interfaces_test.launch "
 
 run_tests_stdr_server_rostest_test_functional_interfaces_test.launch: comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch
 run_tests_stdr_server_rostest_test_functional_interfaces_test.launch: comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/build.make
@@ -67,10 +67,10 @@ comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostes
 .PHONY : comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/build
 
 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/clean:
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_server/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/cmake_clean.cmake
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_server/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/cmake_clean.cmake
 .PHONY : comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/clean
 
 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/cw1/src /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_server/test /home/ros_user/cw1/build /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_server/test /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/COMP0037_CW1/src /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_server/test /home/ros_user/COMP0037_CW1/build /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_server/test /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/depend
 

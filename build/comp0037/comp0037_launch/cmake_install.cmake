@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros_user/cw1/src/comp0037/comp0037_launch
+# Install script for directory: /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_launch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros_user/cw1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros_user/COMP0037_CW1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/cw1/build/comp0037/comp0037_launch/catkin_generated/installspace/comp0037_launch.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_launch/catkin_generated/installspace/comp0037_launch.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_launch/cmake" TYPE FILE FILES
-    "/home/ros_user/cw1/build/comp0037/comp0037_launch/catkin_generated/installspace/comp0037_launchConfig.cmake"
-    "/home/ros_user/cw1/build/comp0037/comp0037_launch/catkin_generated/installspace/comp0037_launchConfig-version.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_launch/catkin_generated/installspace/comp0037_launchConfig.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_launch/catkin_generated/installspace/comp0037_launchConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_launch" TYPE FILE FILES "/home/ros_user/cw1/src/comp0037/comp0037_launch/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_launch" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_launch/package.xml")
 endif()
 

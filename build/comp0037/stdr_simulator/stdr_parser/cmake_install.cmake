@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_parser
+# Install script for directory: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_parser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros_user/cw1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros_user/COMP0037_CW1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_parser/catkin_generated/installspace/stdr_parser.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_parser/catkin_generated/installspace/stdr_parser.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_parser/cmake" TYPE FILE FILES
-    "/home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_parser/catkin_generated/installspace/stdr_parserConfig.cmake"
-    "/home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_parser/catkin_generated/installspace/stdr_parserConfig-version.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_parser/catkin_generated/installspace/stdr_parserConfig.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_parser/catkin_generated/installspace/stdr_parserConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_parser" TYPE FILE FILES "/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_parser/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_parser" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_parser/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_parser.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ros_user/cw1/devel/lib/libstdr_parser.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_parser.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_parser.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstdr_parser.so")
     file(RPATH_CHANGE
@@ -68,6 +68,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/stdr_parser" TYPE DIRECTORY FILES "/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_parser/include/stdr_parser/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/stdr_parser" TYPE DIRECTORY FILES "/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_parser/include/stdr_parser/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

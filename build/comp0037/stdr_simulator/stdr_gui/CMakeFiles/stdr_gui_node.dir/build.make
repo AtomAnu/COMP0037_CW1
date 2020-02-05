@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 # Include any dependencies generated for this target.
 include comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/depend.make
@@ -57,107 +57,107 @@ include comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/progress.m
 # Include the compile flags for this target's objects.
 include comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
 
-comp0037/stdr_simulator/stdr_gui/ui_information.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/information.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_information.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_information.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/information.ui
+comp0037/stdr_simulator/stdr_gui/ui_information.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/information.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_information.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_information.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/information.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_kinematicProperties.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/kinematicProperties.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_kinematicProperties.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_kinematicProperties.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/kinematicProperties.ui
+comp0037/stdr_simulator/stdr_gui/ui_kinematicProperties.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/kinematicProperties.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_kinematicProperties.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_kinematicProperties.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/kinematicProperties.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_laserProperties.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/laserProperties.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_laserProperties.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_laserProperties.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/laserProperties.ui
+comp0037/stdr_simulator/stdr_gui/ui_laserProperties.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/laserProperties.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_laserProperties.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_laserProperties.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/laserProperties.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_laserVisualization.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/laserVisualization.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_laserVisualization.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_laserVisualization.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/laserVisualization.ui
+comp0037/stdr_simulator/stdr_gui/ui_laserVisualization.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/laserVisualization.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_laserVisualization.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_laserVisualization.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/laserVisualization.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_map.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/map.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_map.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_map.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/map.ui
+comp0037/stdr_simulator/stdr_gui/ui_map.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/map.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_map.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_map.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/map.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_rfidAntennaProperties.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/rfidAntennaProperties.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_rfidAntennaProperties.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_rfidAntennaProperties.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/rfidAntennaProperties.ui
+comp0037/stdr_simulator/stdr_gui/ui_rfidAntennaProperties.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/rfidAntennaProperties.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_rfidAntennaProperties.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_rfidAntennaProperties.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/rfidAntennaProperties.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_robotCreator.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/robotCreator.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ui_robotCreator.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_robotCreator.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/robotCreator.ui
+comp0037/stdr_simulator/stdr_gui/ui_robotCreator.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/robotCreator.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ui_robotCreator.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_robotCreator.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/robotCreator.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_robotFootprint.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/robotFootprint.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ui_robotFootprint.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_robotFootprint.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/robotFootprint.ui
+comp0037/stdr_simulator/stdr_gui/ui_robotFootprint.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/robotFootprint.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ui_robotFootprint.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_robotFootprint.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/robotFootprint.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_robotProperties.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/robotProperties.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ui_robotProperties.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_robotProperties.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/robotProperties.ui
+comp0037/stdr_simulator/stdr_gui/ui_robotProperties.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/robotProperties.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ui_robotProperties.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_robotProperties.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/robotProperties.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_robotVisualization.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/robotVisualization.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ui_robotVisualization.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_robotVisualization.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/robotVisualization.ui
+comp0037/stdr_simulator/stdr_gui/ui_robotVisualization.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/robotVisualization.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ui_robotVisualization.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_robotVisualization.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/robotVisualization.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_simulator.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/simulator.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ui_simulator.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_simulator.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/simulator.ui
+comp0037/stdr_simulator/stdr_gui/ui_simulator.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/simulator.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ui_simulator.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_simulator.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/simulator.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_sonarProperties.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/sonarProperties.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ui_sonarProperties.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_sonarProperties.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/sonarProperties.ui
+comp0037/stdr_simulator/stdr_gui/ui_sonarProperties.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/sonarProperties.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ui_sonarProperties.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_sonarProperties.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/sonarProperties.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_sonarVisualization.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/sonarVisualization.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ui_sonarVisualization.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_sonarVisualization.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/sonarVisualization.ui
+comp0037/stdr_simulator/stdr_gui/ui_sonarVisualization.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/sonarVisualization.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ui_sonarVisualization.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_sonarVisualization.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/sonarVisualization.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_co2SensorProperties.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/co2SensorProperties.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ui_co2SensorProperties.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_co2SensorProperties.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/co2SensorProperties.ui
+comp0037/stdr_simulator/stdr_gui/ui_co2SensorProperties.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/co2SensorProperties.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ui_co2SensorProperties.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_co2SensorProperties.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/co2SensorProperties.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_thermalSensorProperties.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/thermalSensorProperties.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ui_thermalSensorProperties.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_thermalSensorProperties.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/thermalSensorProperties.ui
+comp0037/stdr_simulator/stdr_gui/ui_thermalSensorProperties.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/thermalSensorProperties.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ui_thermalSensorProperties.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_thermalSensorProperties.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/thermalSensorProperties.ui
 
-comp0037/stdr_simulator/stdr_gui/ui_soundSensorProperties.h: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/soundSensorProperties.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ui_soundSensorProperties.h"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/ui_soundSensorProperties.h /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/ui/soundSensorProperties.ui
+comp0037/stdr_simulator/stdr_gui/ui_soundSensorProperties.h: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/soundSensorProperties.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ui_soundSensorProperties.h"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/ui_soundSensorProperties.h /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/ui/soundSensorProperties.ui
 
 comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx: /usr/lib/x86_64-linux-gnu/qt4/bin/moc
-comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_gui_controller.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Qt Wrapped File"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_gui_controller.h
+comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_gui_controller.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Qt Wrapped File"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_gui_controller.h
 
 comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx: /usr/lib/x86_64-linux-gnu/qt4/bin/moc
-comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_gui_connector.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Qt Wrapped File"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_gui_connector.h
+comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_gui_connector.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Qt Wrapped File"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_gui_connector.h
 
 comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx: /usr/lib/x86_64-linux-gnu/qt4/bin/moc
-comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_info_connector.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Qt Wrapped File"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_info_connector.h
+comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_info_connector.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Qt Wrapped File"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_info_connector.h
 
 comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx: /usr/lib/x86_64-linux-gnu/qt4/bin/moc
-comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_map_connector.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Qt Wrapped File"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_map_connector.h
+comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_map_connector.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Qt Wrapped File"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_map_connector.h
 
 comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx: /usr/lib/x86_64-linux-gnu/qt4/bin/moc
-comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Qt Wrapped File"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc -o /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.h
+comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Qt Wrapped File"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc -o /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/include/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.h
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_node.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_node.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_node.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_node.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_node.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_node.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.o.requires:
 
@@ -171,17 +171,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_application.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_application.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_application.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_application.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_application.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_application.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.o.requires:
 
@@ -195,17 +195,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_connector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_connector.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_connector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_connector.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_connector.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_connector.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_connector.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_connector.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.o.requires:
 
@@ -219,17 +219,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.o.requires:
 
@@ -243,17 +243,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_controller.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_controller.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_controller.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_controller.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_controller.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_controller.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.o.requires:
 
@@ -267,17 +267,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_connector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_connector.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_connector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_connector.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_connector.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_connector.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_connector.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_connector.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.o.requires:
 
@@ -291,17 +291,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_info_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.o.requires:
 
@@ -315,17 +315,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_connector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_connector.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_connector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_connector.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_connector.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_connector.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_connector.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_connector.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.o.requires:
 
@@ -339,17 +339,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.o.requires:
 
@@ -363,17 +363,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_tools.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_tools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_tools.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_tools.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_tools.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_tools.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_tools.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.o.requires:
 
@@ -387,17 +387,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.o.requires:
 
@@ -411,17 +411,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.o.requires:
 
@@ -435,17 +435,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.o.requires:
 
@@ -459,17 +459,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.o.requires:
 
@@ -483,17 +483,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.o.requires:
 
@@ -507,17 +507,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.o.requires:
 
@@ -531,17 +531,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.o.requires:
 
@@ -555,17 +555,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.o.requires:
 
@@ -579,17 +579,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.o.requires:
 
@@ -603,17 +603,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.o.requires:
 
@@ -627,17 +627,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.o.requires:
 
@@ -651,17 +651,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.o.requires:
 
@@ -675,17 +675,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.o.requires:
 
@@ -699,17 +699,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.o.requires:
 
@@ -723,17 +723,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.o.requires:
 
@@ -747,17 +747,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.o.requires:
 
@@ -771,17 +771,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.o.requires:
 
@@ -795,17 +795,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.o.requires:
 
@@ -819,17 +819,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.o.requires:
 
@@ -843,17 +843,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.o.requires:
 
@@ -867,17 +867,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.o.requires:
 
@@ -891,17 +891,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.o.requires:
 
@@ -915,17 +915,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.o.requires:
 
@@ -939,17 +939,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.o.requires:
 
@@ -963,17 +963,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.o.requires:
 
@@ -987,17 +987,17 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.o: /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.o -c /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.o: /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.o -c /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp > CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp -o CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.o.requires:
 
@@ -1012,16 +1012,16 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.o: comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.o -c /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.o -c /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx > CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx > CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx -o CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_controller.cxx -o CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.o.requires:
 
@@ -1036,16 +1036,16 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_contr
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.o: comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.o -c /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.o -c /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx > CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx > CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx -o CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_gui_connector.cxx -o CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.o.requires:
 
@@ -1060,16 +1060,16 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_conne
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.o: comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.o -c /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.o -c /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx > CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx > CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx -o CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx -o CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.o.requires:
 
@@ -1084,16 +1084,16 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_info_conn
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.o: comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.o -c /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.o -c /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx > CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx > CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx -o CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx -o CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.o.requires:
 
@@ -1108,16 +1108,16 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_map_conne
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.o: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/flags.make
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.o: comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.o"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.o -c /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.o"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.o -c /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.i"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx > CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.i
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx > CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.i
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.s"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx -o CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.s
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx -o CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.s
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.o.requires:
 
@@ -1177,97 +1177,97 @@ stdr_gui_node_OBJECTS = \
 # External object files for target stdr_gui_node
 stdr_gui_node_EXTERNAL_OBJECTS =
 
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.o
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/build.make
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /home/ros_user/cw1/devel/lib/libstdr_map_loader.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libmap_server_image_loader.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /home/ros_user/cw1/devel/lib/libstdr_handle_robot.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libbondcpp.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/libPocoFoundation.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libtf.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libactionlib.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libtf2.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /home/ros_user/cw1/devel/lib/libstdr_parser.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libroslib.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/librospack.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/librostime.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libQtUiTools.a
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libQtGui.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libQtCore.so
-/home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros_user/cw1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Linking CXX executable /home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node"
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stdr_gui_node.dir/link.txt --verbose=$(VERBOSE)
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_node.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_application.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_connector.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_controller.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_connector.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_info_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_connector.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_tools.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_kinematic_properties_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_laser_properties_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sonar_properties_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_properties_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_footprint_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_rfid_antenna_properties_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_co2_sensor_properties_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_thermal_sensor_properties_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_sound_sensor_properties_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_loader.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_robot_creator/stdr_robot_creator_connector.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_robot.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_laser.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sonar.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_rfid.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_co2.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_thermal.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_gui_sensors/stdr_gui_sound.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_laser_visualization.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_sonar_visualization.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_visualization/stdr_robot_visualization.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_source.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_co2_source.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_thermal_source.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_rfid_tag.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/src/stdr_gui/stdr_map_metainformation/stdr_gui_sound_source.cpp.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_controller.cxx.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_gui_connector.cxx.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.o
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/build.make
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /home/ros_user/COMP0037_CW1/devel/lib/libstdr_map_loader.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libmap_server_image_loader.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /home/ros_user/COMP0037_CW1/devel/lib/libstdr_handle_robot.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libbondcpp.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libclass_loader.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/libPocoFoundation.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libtf.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libactionlib.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libtf2.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /home/ros_user/COMP0037_CW1/devel/lib/libstdr_parser.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libroslib.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/librospack.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/librostime.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libQtUiTools.a
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libQtGui.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: /usr/lib/x86_64-linux-gnu/libQtCore.so
+/home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node: comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros_user/COMP0037_CW1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Linking CXX executable /home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node"
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stdr_gui_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/build: /home/ros_user/cw1/devel/lib/stdr_gui/stdr_gui_node
+comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/build: /home/ros_user/COMP0037_CW1/devel/lib/stdr_gui/stdr_gui_node
 
 .PHONY : comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/build
 
@@ -1316,7 +1316,7 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/requires: comp0037
 .PHONY : comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/requires
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/clean:
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui && $(CMAKE_COMMAND) -P CMakeFiles/stdr_gui_node.dir/cmake_clean.cmake
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui && $(CMAKE_COMMAND) -P CMakeFiles/stdr_gui_node.dir/cmake_clean.cmake
 .PHONY : comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/clean
 
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/depend: comp0037/stdr_simulator/stdr_gui/ui_information.h
@@ -1340,6 +1340,6 @@ comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/depend: comp0037/s
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/depend: comp0037/stdr_simulator/stdr_gui/moc_stdr_info_connector.cxx
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/depend: comp0037/stdr_simulator/stdr_gui/moc_stdr_map_connector.cxx
 comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/depend: comp0037/stdr_simulator/stdr_gui/moc_stdr_robot_creator_connector.cxx
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/cw1/src /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_gui /home/ros_user/cw1/build /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/COMP0037_CW1/src /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_gui /home/ros_user/COMP0037_CW1/build /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : comp0037/stdr_simulator/stdr_gui/CMakeFiles/stdr_gui_node.dir/depend
 

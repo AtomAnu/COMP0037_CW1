@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/comp0037_planner_controller_generate_messages_nodejs"
-  "/home/ros_user/cw1/devel/share/gennodejs/ros/comp0037_planner_controller/srv/Goal.js"
+  "/home/ros_user/COMP0037_CW1/devel/share/gennodejs/ros/comp0037_planner_controller/srv/Goal.js"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/cw1/build/CMakeFiles /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_server/test/CMakeFiles/progress.marks
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/cw1/build/CMakeFiles 0
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/COMP0037_CW1/build/CMakeFiles /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_server/test/CMakeFiles/progress.marks
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/COMP0037_CW1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/clean
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/preinstall
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/preinstall
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server.dir/rule
 .PHONY : comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ _run_tests_stdr_server: comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run
 
 # fast build rule for target.
 _run_tests_stdr_server/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server.dir/build
 .PHONY : _run_tests_stdr_server/fast
 
 # Convenience name for target.
 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/rule
 .PHONY : comp0037/stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ clean_test_results_stdr_server: comp0037/stdr_simulator/stdr_server/test/CMakeFi
 
 # fast build rule for target.
 clean_test_results_stdr_server/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/build
 .PHONY : clean_test_results_stdr_server/fast
 
 # Convenience name for target.
 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest.dir/rule
 .PHONY : comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _run_tests_stdr_server_rostest: comp0037/stdr_simulator/stdr_server/test/CMakeFi
 
 # fast build rule for target.
 _run_tests_stdr_server_rostest/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest.dir/build
 .PHONY : _run_tests_stdr_server_rostest/fast
 
 # Convenience name for target.
 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest.dir/rule
 .PHONY : comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ run_tests_stdr_server_rostest: comp0037/stdr_simulator/stdr_server/test/CMakeFil
 
 # fast build rule for target.
 run_tests_stdr_server_rostest/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest.dir/build
 .PHONY : run_tests_stdr_server_rostest/fast
 
 # Convenience name for target.
 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server.dir/rule
 .PHONY : comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ run_tests_stdr_server: comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_t
 
 # fast build rule for target.
 run_tests_stdr_server/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server.dir/build
 .PHONY : run_tests_stdr_server/fast
 
 # Convenience name for target.
 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/rule
 .PHONY : comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ _run_tests_stdr_server_rostest_test_functional_interfaces_test.launch: comp0037/
 
 # fast build rule for target.
 _run_tests_stdr_server_rostest_test_functional_interfaces_test.launch/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/_run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/build
 .PHONY : _run_tests_stdr_server_rostest_test_functional_interfaces_test.launch/fast
 
 # Convenience name for target.
 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/rule
 .PHONY : comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/rule
 
 # Convenience name for target.
@@ -267,7 +267,7 @@ run_tests_stdr_server_rostest_test_functional_interfaces_test.launch: comp0037/s
 
 # fast build rule for target.
 run_tests_stdr_server_rostest_test_functional_interfaces_test.launch/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/build.make comp0037/stdr_simulator/stdr_server/test/CMakeFiles/run_tests_stdr_server_rostest_test_functional_interfaces_test.launch.dir/build
 .PHONY : run_tests_stdr_server_rostest_test_functional_interfaces_test.launch/fast
 
 # Help Target
@@ -301,6 +301,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

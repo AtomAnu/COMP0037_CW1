@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/cw1/build/CMakeFiles /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_samples/CMakeFiles/progress.marks
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_samples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/cw1/build/CMakeFiles 0
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/COMP0037_CW1/build/CMakeFiles /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_samples/CMakeFiles/progress.marks
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_samples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros_user/COMP0037_CW1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_samples/clean
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_samples/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_samples/preinstall
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_samples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_samples/preinstall
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_samples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/rule:
-	cd /home/ros_user/cw1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/rule
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f CMakeFiles/Makefile2 comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/rule
 .PHONY : comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ stdr_obstacle_avoidance: comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_ob
 
 # fast build rule for target.
 stdr_obstacle_avoidance/fast:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build
 .PHONY : stdr_obstacle_avoidance/fast
 
 src/obstacle_avoidance/main.o: src/obstacle_avoidance/main.cpp.o
@@ -186,7 +186,7 @@ src/obstacle_avoidance/main.o: src/obstacle_avoidance/main.cpp.o
 
 # target to build an object file
 src/obstacle_avoidance/main.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o
 .PHONY : src/obstacle_avoidance/main.cpp.o
 
 src/obstacle_avoidance/main.i: src/obstacle_avoidance/main.cpp.i
@@ -195,7 +195,7 @@ src/obstacle_avoidance/main.i: src/obstacle_avoidance/main.cpp.i
 
 # target to preprocess a source file
 src/obstacle_avoidance/main.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.i
 .PHONY : src/obstacle_avoidance/main.cpp.i
 
 src/obstacle_avoidance/main.s: src/obstacle_avoidance/main.cpp.s
@@ -204,7 +204,7 @@ src/obstacle_avoidance/main.s: src/obstacle_avoidance/main.cpp.s
 
 # target to generate assembly for a file
 src/obstacle_avoidance/main.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.s
 .PHONY : src/obstacle_avoidance/main.cpp.s
 
 src/obstacle_avoidance/obstacle_avoidance.o: src/obstacle_avoidance/obstacle_avoidance.cpp.o
@@ -213,7 +213,7 @@ src/obstacle_avoidance/obstacle_avoidance.o: src/obstacle_avoidance/obstacle_avo
 
 # target to build an object file
 src/obstacle_avoidance/obstacle_avoidance.cpp.o:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o
 .PHONY : src/obstacle_avoidance/obstacle_avoidance.cpp.o
 
 src/obstacle_avoidance/obstacle_avoidance.i: src/obstacle_avoidance/obstacle_avoidance.cpp.i
@@ -222,7 +222,7 @@ src/obstacle_avoidance/obstacle_avoidance.i: src/obstacle_avoidance/obstacle_avo
 
 # target to preprocess a source file
 src/obstacle_avoidance/obstacle_avoidance.cpp.i:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.i
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.i
 .PHONY : src/obstacle_avoidance/obstacle_avoidance.cpp.i
 
 src/obstacle_avoidance/obstacle_avoidance.s: src/obstacle_avoidance/obstacle_avoidance.cpp.s
@@ -231,7 +231,7 @@ src/obstacle_avoidance/obstacle_avoidance.s: src/obstacle_avoidance/obstacle_avo
 
 # target to generate assembly for a file
 src/obstacle_avoidance/obstacle_avoidance.cpp.s:
-	cd /home/ros_user/cw1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.s
+	cd /home/ros_user/COMP0037_CW1/build && $(MAKE) -f comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make comp0037/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.s
 .PHONY : src/obstacle_avoidance/obstacle_avoidance.cpp.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

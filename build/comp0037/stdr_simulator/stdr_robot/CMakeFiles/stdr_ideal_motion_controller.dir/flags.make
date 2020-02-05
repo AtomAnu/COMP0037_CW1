@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"stdr_robot\" -Dstdr_ideal_motion_controller_EXPORTS
 
-CXX_INCLUDES = -I/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_robot/include -I/home/ros_user/cw1/devel/include -I/home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_parser/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_robot/include -I/home/ros_user/COMP0037_CW1/devel/include -I/home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_parser/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

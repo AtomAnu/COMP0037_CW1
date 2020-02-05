@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros_user/cw1/src/comp0037/comp0037_resources
+# Install script for directory: /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_resources
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros_user/cw1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros_user/COMP0037_CW1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/cw1/build/comp0037/comp0037_resources/catkin_generated/installspace/comp0037_resources.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_resources/catkin_generated/installspace/comp0037_resources.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_resources/cmake" TYPE FILE FILES
-    "/home/ros_user/cw1/build/comp0037/comp0037_resources/catkin_generated/installspace/comp0037_resourcesConfig.cmake"
-    "/home/ros_user/cw1/build/comp0037/comp0037_resources/catkin_generated/installspace/comp0037_resourcesConfig-version.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_resources/catkin_generated/installspace/comp0037_resourcesConfig.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_resources/catkin_generated/installspace/comp0037_resourcesConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_resources" TYPE FILE FILES "/home/ros_user/cw1/src/comp0037/comp0037_resources/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_resources" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_resources/package.xml")
 endif()
 

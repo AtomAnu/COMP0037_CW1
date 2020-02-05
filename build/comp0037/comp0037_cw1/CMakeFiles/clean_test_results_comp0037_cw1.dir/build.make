@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 # Utility rule file for clean_test_results_comp0037_cw1.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros_user/cw1/build
 include comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/progress.make
 
 comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1:
-	cd /home/ros_user/cw1/build/comp0037/comp0037_cw1 && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/ros_user/cw1/build/test_results/comp0037_cw1
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1 && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/ros_user/COMP0037_CW1/build/test_results/comp0037_cw1
 
 clean_test_results_comp0037_cw1: comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1
 clean_test_results_comp0037_cw1: comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/build.make
@@ -67,10 +67,10 @@ comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/build: clea
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/build
 
 comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/clean:
-	cd /home/ros_user/cw1/build/comp0037/comp0037_cw1 && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_comp0037_cw1.dir/cmake_clean.cmake
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1 && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_comp0037_cw1.dir/cmake_clean.cmake
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/clean
 
 comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/cw1/src /home/ros_user/cw1/src/comp0037/comp0037_cw1 /home/ros_user/cw1/build /home/ros_user/cw1/build/comp0037/comp0037_cw1 /home/ros_user/cw1/build/comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/COMP0037_CW1/src /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_cw1 /home/ros_user/COMP0037_CW1/build /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1 /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/clean_test_results_comp0037_cw1.dir/depend
 

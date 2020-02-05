@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 # Utility rule file for actionlib_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ comp0037/stdr_simulator/stdr_msgs/CMakeFiles/actionlib_msgs_generate_messages_li
 .PHONY : comp0037/stdr_simulator/stdr_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 
 comp0037/stdr_simulator/stdr_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean:
-	cd /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_msgs && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_msgs && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : comp0037/stdr_simulator/stdr_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
 
 comp0037/stdr_simulator/stdr_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/cw1/src /home/ros_user/cw1/src/comp0037/stdr_simulator/stdr_msgs /home/ros_user/cw1/build /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_msgs /home/ros_user/cw1/build/comp0037/stdr_simulator/stdr_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/COMP0037_CW1/src /home/ros_user/COMP0037_CW1/src/comp0037/stdr_simulator/stdr_msgs /home/ros_user/COMP0037_CW1/build /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_msgs /home/ros_user/COMP0037_CW1/build/comp0037/stdr_simulator/stdr_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : comp0037/stdr_simulator/stdr_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
 

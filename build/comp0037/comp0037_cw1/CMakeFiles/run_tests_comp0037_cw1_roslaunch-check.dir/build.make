@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros_user/cw1/src
+CMAKE_SOURCE_DIR = /home/ros_user/COMP0037_CW1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros_user/cw1/build
+CMAKE_BINARY_DIR = /home/ros_user/COMP0037_CW1/build
 
 # Utility rule file for run_tests_comp0037_cw1_roslaunch-check.
 
@@ -63,10 +63,10 @@ comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/buil
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/build
 
 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/clean:
-	cd /home/ros_user/cw1/build/comp0037/comp0037_cw1 && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/cmake_clean.cmake
+	cd /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1 && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/cmake_clean.cmake
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/clean
 
 comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/depend:
-	cd /home/ros_user/cw1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/cw1/src /home/ros_user/cw1/src/comp0037/comp0037_cw1 /home/ros_user/cw1/build /home/ros_user/cw1/build/comp0037/comp0037_cw1 /home/ros_user/cw1/build/comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros_user/COMP0037_CW1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros_user/COMP0037_CW1/src /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_cw1 /home/ros_user/COMP0037_CW1/build /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1 /home/ros_user/COMP0037_CW1/build/comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : comp0037/comp0037_cw1/CMakeFiles/run_tests_comp0037_cw1_roslaunch-check.dir/depend
 

@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/stdr_parser.dir/src/stdr_parser_node.cpp.o"
   "CMakeFiles/stdr_parser.dir/src/stdr_parser_specs.cpp.o"
   "CMakeFiles/stdr_parser.dir/src/stdr_parser_tools.cpp.o"
-  "/home/ros_user/cw1/devel/lib/libstdr_parser.pdb"
-  "/home/ros_user/cw1/devel/lib/libstdr_parser.so"
+  "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_parser.pdb"
+  "/home/ros_user/COMP0037_CW1/devel/lib/libstdr_parser.so"
 )
 
 # Per-language clean rules from dependency scanning.

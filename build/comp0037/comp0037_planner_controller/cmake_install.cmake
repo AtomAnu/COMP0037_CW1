@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros_user/cw1/src/comp0037/comp0037_planner_controller
+# Install script for directory: /home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros_user/cw1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros_user/COMP0037_CW1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,61 +33,61 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/ros_user/cw1/build/comp0037/comp0037_planner_controller/catkin_generated/safe_execute_install.cmake")
+  include("/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_planner_controller/srv" TYPE FILE FILES "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/srv/Goal.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_planner_controller/srv" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/srv/Goal.srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_planner_controller/cmake" TYPE FILE FILES "/home/ros_user/cw1/build/comp0037/comp0037_planner_controller/catkin_generated/installspace/comp0037_planner_controller-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_planner_controller/cmake" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller/catkin_generated/installspace/comp0037_planner_controller-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ros_user/cw1/devel/include/comp0037_planner_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ros_user/COMP0037_CW1/devel/include/comp0037_planner_controller")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ros_user/cw1/devel/share/roseus/ros/comp0037_planner_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ros_user/COMP0037_CW1/devel/share/roseus/ros/comp0037_planner_controller")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ros_user/cw1/devel/share/common-lisp/ros/comp0037_planner_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ros_user/COMP0037_CW1/devel/share/common-lisp/ros/comp0037_planner_controller")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ros_user/cw1/devel/share/gennodejs/ros/comp0037_planner_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ros_user/COMP0037_CW1/devel/share/gennodejs/ros/comp0037_planner_controller")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller" REGEX "/\\_\\_init\\_\\_\\.py$" EXCLUDE REGEX "/\\_\\_init\\_\\_\\.pyc$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller" REGEX "/\\_\\_init\\_\\_\\.py$" EXCLUDE REGEX "/\\_\\_init\\_\\_\\.pyc$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller" FILES_MATCHING REGEX "/home/ros_user/cw1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/.+/__init__.pyc?$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller" FILES_MATCHING REGEX "/home/ros_user/COMP0037_CW1/devel/lib/python2.7/dist-packages/comp0037_planner_controller/.+/__init__.pyc?$")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/cw1/build/comp0037/comp0037_planner_controller/catkin_generated/installspace/comp0037_planner_controller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller/catkin_generated/installspace/comp0037_planner_controller.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_planner_controller/cmake" TYPE FILE FILES "/home/ros_user/cw1/build/comp0037/comp0037_planner_controller/catkin_generated/installspace/comp0037_planner_controller-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_planner_controller/cmake" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller/catkin_generated/installspace/comp0037_planner_controller-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_planner_controller/cmake" TYPE FILE FILES
-    "/home/ros_user/cw1/build/comp0037/comp0037_planner_controller/catkin_generated/installspace/comp0037_planner_controllerConfig.cmake"
-    "/home/ros_user/cw1/build/comp0037/comp0037_planner_controller/catkin_generated/installspace/comp0037_planner_controllerConfig-version.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller/catkin_generated/installspace/comp0037_planner_controllerConfig.cmake"
+    "/home/ros_user/COMP0037_CW1/build/comp0037/comp0037_planner_controller/catkin_generated/installspace/comp0037_planner_controllerConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_planner_controller" TYPE FILE FILES "/home/ros_user/cw1/src/comp0037/comp0037_planner_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/comp0037_planner_controller" TYPE FILE FILES "/home/ros_user/COMP0037_CW1/src/comp0037/comp0037_planner_controller/package.xml")
 endif()
 

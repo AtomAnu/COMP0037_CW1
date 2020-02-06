@@ -1,5 +1,3 @@
-#NOT IMPLEMENTED YET
-
 # -*- coding: utf-8 -*-
 
 from cell_based_forward_search import CellBasedForwardSearch
@@ -74,15 +72,27 @@ class AStarManhattonPlanner(CellBasedForwardSearch):
         
         return total_angle
 
-    def computeCost(self, cell):
-        parentCell = cell.parent
-        cost = 0
-        while (parentCell is not None):
-            cost = cost + self.computeLStageAdditiveCost(parentCell, cell)
-            cell = parentCell
+    def computeCost(self, cell, parentCell):
+        if (parentCell is None):
+            return 0
+        cost = self.computeLStageAdditiveCost(cell, parentCell)
+        while (parentCell.parent is not None):
+            cost = cost + self.computeLStageAdditiveCost(parentCell, parentCell.parent)
             parentCell = parentCell.parent
-        
-        return cost
+
+        return cost + self.manhatton_heuristic(cell)
+    
+    def manhatton_heuristic(self, cell):
+        dx = abs(cell.coords[0]-self.goal.coords[0])
+        dy = abs(cell.coords[1]-self.goal.coords[1])
+
+        return dx+dy
+
+    def checkParent(self):
+        for cell in self.fifoQueue:
+            print("c: {}".format(cell.coords))
+            if (cell.parent is not None):
+                print("c parent: {}".format(cell.parent.coords))
 
     def insert(self, cell):
         if len(self.fifoQueue) == 0:
@@ -90,7 +100,7 @@ class AStarManhattonPlanner(CellBasedForwardSearch):
         else:
             index = -1
             for i in range(len(self.fifoQueue)):
-                if self.computeCost(cell) <= self.computeCost(self.fifoQueue[i]):
+                if self.computeCost(cell, cell.parent) <= self.computeCost(self.fifoQueue[i], self.fifoQueue[i].parent):
                     index = i
                     break
             if index == -1:
@@ -99,6 +109,8 @@ class AStarManhattonPlanner(CellBasedForwardSearch):
                 self.fifoQueue.rotate(-index)
                 self.fifoQueue.appendleft(cell)
                 self.fifoQueue.rotate(index)
+        #print("Insert done!")
+        #self.checkParent()
     #..........
 
     # Simply put on the end of the queue
@@ -106,7 +118,7 @@ class AStarManhattonPlanner(CellBasedForwardSearch):
         # self.fifoQueue.append(cell)
 
         # changes
-        self.compare_cells(cell)
+        self.insert(cell)
         self.updateMaxQueueLength(1)
         #..........
 
@@ -125,16 +137,10 @@ class AStarManhattonPlanner(CellBasedForwardSearch):
         return cell
 
     def resolveDuplicate(self, cell, parentCell):
-        # Nothing to do in self case
-        pass
-
-    def compare_cells(self, cell_to_compare):
-        #check for duplicate cells and select the one with the smallest cost to the queue
-        for cell in self.fifoQueue:
-            if cell_to_compare.coords == cell.coords:
-                removed_cell = self.fifoQueue.remove(cell)
-                if self.computeCost(cell_to_compare) <= self.computeCost(removed_cell):
-                    self.insert(cell_to_compare)
-                else:
-                    self.insert(cell)
-
+        #print(1)
+        #self.checkParent()
+        if self.computeCost(cell, parentCell) < self.computeCost(cell, cell.parent):
+            self.markCellAsVisitedAndRecordParent(cell, parentCell)     
+        #print(2)
+        #self.checkParent()
+        #pass

@@ -13,7 +13,7 @@ import numpy as np
 # onto the back of the queue, and are popped from the front of the
 # queue.
 
-class AStarManhattonPlanner(CellBasedForwardSearch):
+class AStarConstantPlanner(CellBasedForwardSearch):
 
     # Construct the new planner object
     def __init__(self, title, occupancyGrid):
@@ -80,13 +80,10 @@ class AStarManhattonPlanner(CellBasedForwardSearch):
             cost = cost + self.computeLStageAdditiveCost(parentCell, parentCell.parent)
             parentCell = parentCell.parent
 
-        return cost + self.manhatton_heuristic(cell)
+        return cost + self.non_neg_constant_heuristic()
     
-    def manhatton_heuristic(self, cell):
-        dx = abs(cell.coords[0]-self.goal.coords[0])
-        dy = abs(cell.coords[1]-self.goal.coords[1])
-
-        return dx+dy
+    def non_neg_constant_heuristic(self):
+        return 1
 
     def checkParent(self):
         for cell in self.fifoQueue:

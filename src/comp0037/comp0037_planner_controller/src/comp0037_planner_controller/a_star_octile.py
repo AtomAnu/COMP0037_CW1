@@ -13,7 +13,7 @@ import numpy as np
 # onto the back of the queue, and are popped from the front of the
 # queue.
 
-class AStarManhattonPlanner(CellBasedForwardSearch):
+class AStarOctilePlanner(CellBasedForwardSearch):
 
     # Construct the new planner object
     def __init__(self, title, occupancyGrid):
@@ -80,13 +80,13 @@ class AStarManhattonPlanner(CellBasedForwardSearch):
             cost = cost + self.computeLStageAdditiveCost(parentCell, parentCell.parent)
             parentCell = parentCell.parent
 
-        return cost + self.manhatton_heuristic(cell)
+        return cost + self.octile_heuristic(cell)
     
-    def manhatton_heuristic(self, cell):
+    def octile_heuristic(self, cell):
         dx = abs(cell.coords[0]-self.goal.coords[0])
         dy = abs(cell.coords[1]-self.goal.coords[1])
 
-        return dx+dy
+        return max(dx,dy)+(np.sqrt(2)-1)*min(dx,dy)
 
     def checkParent(self):
         for cell in self.fifoQueue:

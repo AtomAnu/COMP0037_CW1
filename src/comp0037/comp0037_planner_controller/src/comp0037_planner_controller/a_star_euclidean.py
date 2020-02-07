@@ -74,13 +74,14 @@ class AStarEuclideanPlanner(CellBasedForwardSearch):
 
     def computeCost(self, cell, parentCell):
         if (parentCell is None):
+            #cell.pathCost = 0
             return 0
-        cost = self.computeLStageAdditiveCost(cell, parentCell)
-        while (parentCell.parent is not None):
-            cost = cost + self.computeLStageAdditiveCost(parentCell, parentCell.parent)
-            parentCell = parentCell.parent
-
-        return cost + self.euclidean_heuristic(cell)
+        #cell.pathCost = parentCell.pathCost + self.computeLStageAdditiveCost(cell, parentCell)
+        return parentCell.pathCost + self.computeLStageAdditiveCost(cell, parentCell)
+        #return cell.pathCost + self.manhatton_heuristic(cell)
+    
+    def setCost(self, cell, cost):
+        cell.pathCost = cost
     
     def euclidean_heuristic(self, cell):
         dx = abs(cell.coords[0]-self.goal.coords[0])
@@ -100,8 +101,10 @@ class AStarEuclideanPlanner(CellBasedForwardSearch):
         else:
             index = -1
             for i in range(len(self.fifoQueue)):
-                if self.computeCost(cell, cell.parent) <= self.computeCost(self.fifoQueue[i], self.fifoQueue[i].parent):
+                cost = self.computeCost(cell, cell.parent)
+                if cost + self.euclidean_heuristic(cell) <= self.fifoQueue[i].pathCost + self.euclidean_heuristic(self.fifoQueue[i]):
                     index = i
+                    self.setCost(cell, cost)
                     break
             if index == -1:
                 self.fifoQueue.append(cell)
@@ -139,8 +142,12 @@ class AStarEuclideanPlanner(CellBasedForwardSearch):
     def resolveDuplicate(self, cell, parentCell):
         #print(1)
         #self.checkParent()
-        if self.computeCost(cell, parentCell) < self.computeCost(cell, cell.parent):
-            self.markCellAsVisitedAndRecordParent(cell, parentCell)     
+        temp = cell.pathCost
+        if self.computeCost(cell, parentCell) < temp:
+            cell.parent = parentCell
+            if (cell in self.fifoQueue):
+                self.fifoQueue.remove(cell)
+                self.insert(cell)  
         #print(2)
         #self.checkParent()
         #pass

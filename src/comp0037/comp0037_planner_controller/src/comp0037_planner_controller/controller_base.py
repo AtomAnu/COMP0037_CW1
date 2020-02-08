@@ -16,7 +16,7 @@ class ControllerBase(object):
     def __init__(self, occupancyGrid):
 
         rospy.wait_for_message('/robot0/odom', Odometry)
-        print("Debug2")
+
         # Create the node, publishers and subscriber
         self.velocityPublisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
         self.currentOdometrySubscriber = rospy.Subscriber('/robot0/odom', Odometry, self.odometryCallback)
@@ -38,10 +38,21 @@ class ControllerBase(object):
         # This is the rate at which we broadcast updates to the simulator in Hz.
         self.rate = rospy.Rate(10)
 
+        #changes
+        self.totalAngle_2 = 0
+        self.totalDistance_2 = 0
+        self.totalTime = 0
+        self.lastTime = 0
+        #..........
+
     # Get the pose of the robot. Store this in a Pose2D structure because
     # this is easy to use. Use radians for angles because these are used
     # inside the control system.
     def odometryCallback(self, odometry):
+        #changes
+        if self.lastTime != 0:
+            self.totalTime = self.totalTime + time.time() - self.lastTime
+        #..........
         odometryPose = odometry.pose.pose
 
         pose = Pose2D()
@@ -52,7 +63,16 @@ class ControllerBase(object):
         pose.x = position.x
         pose.y = position.y
         pose.theta = 2 * atan2(orientation.z, orientation.w)
+        #changes
+        self.totalAngle_2 = self.totalAngle_2 + abs(self.pose.theta - pose.theta)
+        self.totalDistance_2 = self.totalDistance_2 + abs(sqrt(pow((pose.x - self.pose.x), 2) + pow((pose.y - self.pose.y), 2)))
         self.pose = pose
+        print(self.pose)
+        print("Total Angle 2: {}".format(self.totalAngle_2*180/math.pi))
+        print("Total Distance 2: {}".format(self.totalDistance_2))
+        print("Total Time: {}".format(self.totalTime))
+        self.lastTime = time.time()
+        #..........
 
     # Return the most up-to-date pose of the robot
     def getCurrentPose(self):

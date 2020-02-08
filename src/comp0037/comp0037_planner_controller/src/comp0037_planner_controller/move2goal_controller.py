@@ -23,7 +23,12 @@ class Move2GoalController(ControllerBase):
         self.angleErrorGain = rospy.get_param('angle_error_gain', 4)
 
         self.driveAngleErrorTolerance = math.radians(rospy.get_param('angle_error_tolerance', 1))
-    
+
+        #changes
+        self.totalAngle = 0
+        self.totalDistance = 0
+        #..........
+
     def get_distance(self, goal_x, goal_y):
         distance = sqrt(pow((goal_x - self.pose.x), 2) + pow((goal_y - self.pose.y), 2))
         return distance
@@ -43,11 +48,14 @@ class Move2GoalController(ControllerBase):
         dY = waypoint[1] - self.pose.y
         distanceError = sqrt(dX * dX + dY * dY)
         angleError = self.shortestAngularDistance(self.pose.theta, atan2(dY, dX))
-       
+        #changes
+        temp_a = angleError
+        temp_d = distanceError
+        #..........
         while (distanceError >= self.distanceErrorTolerance) & (not rospy.is_shutdown()):
-            #print("Current Pose: x: {}, y:{} , theta: {}\nGoal: x: {}, y: {}\n".format(self.pose.x, self.pose.y,
-            #                                                                           self.pose.theta, waypoint[0],
-            #                                                                           waypoint[1]))
+            print("Current Pose: x: {}, y:{} , theta: {}\nGoal: x: {}, y: {}\n".format(self.pose.x, self.pose.y,
+                                                                                       self.pose.theta, waypoint[0],
+                                                                                       waypoint[1]))
             print("Distance Error: {}\nAngular Error: {}".format(distanceError, angleError))
 
             # Proportional Controller
@@ -61,9 +69,9 @@ class Move2GoalController(ControllerBase):
             vel_msg.angular.x = 0
             vel_msg.angular.y = 0
             vel_msg.angular.z = max(-5.0, min(self.angleErrorGain * angleError, 5.0))
-
-
-            #print("Linear Velocity: {}\nAngular Velocity: {}\n\n".format(vel_msg.linear.x, math.degrees(vel_msg.angular.z)))
+            
+            
+            print("Linear Velocity: {}\nAngular Velocity: {}\n\n".format(vel_msg.linear.x, math.degrees(vel_msg.angular.z)))
             # Publishing our vel_msg
             self.velocityPublisher.publish(vel_msg)
             if (self.plannerDrawer is not None):
@@ -74,6 +82,14 @@ class Move2GoalController(ControllerBase):
             distanceError = sqrt(pow((waypoint[0] - self.pose.x), 2) + pow((waypoint[1] - self.pose.y), 2))
             angleError = self.shortestAngularDistance(self.pose.theta,
                                                       atan2(waypoint[1] - self.pose.y, waypoint[0] - self.pose.x))
+            #changes
+            self.totalAngle = self.totalAngle + abs(temp_a - angleError)
+            self.totalDistance = self.totalDistance + abs(temp_d - distanceError)
+            temp_a = angleError
+            temp_d = distanceError
+            print("Total Angle: {}\n".format(self.totalAngle*180/math.pi))
+            print("Total Distance: {}\n".format(self.totalDistance))
+            #..........
 
         # Make sure the robot is stopped once we reach the destination.
         vel_msg.linear.x = 0

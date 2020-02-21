@@ -8,6 +8,7 @@ from math import pow,atan2,sqrt,pi
 from planned_path import PlannedPath
 import time
 import math
+import numpy as np
 
 # This is the base class of the controller which moves the robot to its goal.
 
@@ -73,12 +74,20 @@ class ControllerBase(object):
         pose.y = position.y
         pose.theta = 2 * atan2(orientation.z, orientation.w)
         #changes
-        self.totalAngle_2 = self.totalAngle_2 + abs(self.pose.theta - pose.theta)
+        if pose.theta > np.pi:
+            pose.theta = pose.theta - 2 * np.pi
+        #self.totalAngle_2 = self.totalAngle_2 + abs(self.pose.theta - pose.theta)
+        angle_diff = abs(self.pose.theta - pose.theta)
+        if angle_diff > np.pi:
+            self.totalAngle_2 = self.totalAngle_2 + 2 * np.pi - angle_diff
+        else:
+            self.totalAngle_2 = self.totalAngle_2 + angle_diff
+
         self.totalDistance_2 = self.totalDistance_2 + abs(sqrt(pow((pose.x - self.pose.x), 2) + pow((pose.y - self.pose.y), 2)))
         self.pose = pose
 
         self.totalCallBackTime += time.time() - start_time
-        print("Callback: {}".format(self.totalCallBackTime))
+        #print("Callback: {}".format(self.totalCallBackTime))
         #print(self.pose)
         #print("Total Angle 2: {}".format(self.totalAngle_2*180/math.pi))
         #print("Total Distance 2: {}".format(self.totalDistance_2))
@@ -119,6 +128,8 @@ class ControllerBase(object):
             waypoint = self.occupancyGrid.getWorldCoordinatesFromCellCoordinates(cell.coords)
             rospy.loginfo("Driving to waypoint (%f, %f)", waypoint[0], waypoint[1])
             self.driveToWaypoint(waypoint)
+            print("Total Angle: {}".format(self.totalAngle_2*180/math.pi))
+            print("Total Distance: {}".format(self.totalDistance_2))
             # Handle ^C
             if rospy.is_shutdown() is True:
                 break
@@ -126,6 +137,9 @@ class ControllerBase(object):
         print("Total Driving Time: {}".format(total_driving_time))
         print("Total Callback Time: {}".format(self.totalCallBackTime))
         rospy.loginfo('Rotating to goal orientation (' + str(goalOrientation) + ')')
+
+        print("Total Angle: {}".format(self.totalAngle_2*180/math.pi))
+        print("Total Distance: {}".format(self.totalDistance_2))
 
         # Finish off by rotating the robot to the final configuration
         if rospy.is_shutdown() is False:

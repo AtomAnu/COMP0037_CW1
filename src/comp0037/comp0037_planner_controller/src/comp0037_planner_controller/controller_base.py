@@ -45,6 +45,14 @@ class ControllerBase(object):
         self.lastTime = 0
         #..........
 
+    #changes
+    def resetpara(self):
+        self.totalAngle_2 = 0
+        self.totalDistance_2 = 0
+        self.totalTime = 0
+        self.lastTime = 0
+    #........
+
     # Get the pose of the robot. Store this in a Pose2D structure because
     # this is easy to use. Use radians for angles because these are used
     # inside the control system.
@@ -67,10 +75,10 @@ class ControllerBase(object):
         self.totalAngle_2 = self.totalAngle_2 + abs(self.pose.theta - pose.theta)
         self.totalDistance_2 = self.totalDistance_2 + abs(sqrt(pow((pose.x - self.pose.x), 2) + pow((pose.y - self.pose.y), 2)))
         self.pose = pose
-        print(self.pose)
-        print("Total Angle 2: {}".format(self.totalAngle_2*180/math.pi))
-        print("Total Distance 2: {}".format(self.totalDistance_2))
-        print("Total Time: {}".format(self.totalTime))
+        #print(self.pose)
+        #print("Total Angle 2: {}".format(self.totalAngle_2*180/math.pi))
+        #print("Total Distance 2: {}".format(self.totalDistance_2))
+        #print("Total Time: {}".format(self.totalTime))
         self.lastTime = time.time()
         #..........
 
@@ -90,6 +98,12 @@ class ControllerBase(object):
     # the planner drawer because we have to keep updating it to
     # make sure the graphics are redrawn properly.
     def drivePathToGoal(self, path, goalOrientation, plannerDrawer):
+        #changes
+        self.resetpara()
+        print("Total Angle: {}".format(self.totalAngle_2*180/math.pi))
+        print("Total Distance: {}".format(self.totalDistance_2))
+        #..........
+        
         self.plannerDrawer = plannerDrawer
         
         rospy.loginfo('Driving path to goal with ' + str(len(path.waypoints)) + ' waypoint(s)')
@@ -106,6 +120,11 @@ class ControllerBase(object):
         
         rospy.loginfo('Rotating to goal orientation (' + str(goalOrientation) + ')')
         
+        #changes
+        print("Total Angle: {}".format(self.totalAngle_2*180/math.pi))
+        print("Total Distance: {}".format(self.totalDistance_2))
+        #..........
+
         # Finish off by rotating the robot to the final configuration
         if rospy.is_shutdown() is False:
             self.rotateToGoalOrientation(goalOrientation)

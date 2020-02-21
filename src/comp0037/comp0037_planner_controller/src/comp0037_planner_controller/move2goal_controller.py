@@ -7,6 +7,7 @@ from comp0037_planner_controller.planned_path import PlannedPath
 from comp0037_planner_controller.controller_base import ControllerBase
 import math
 import angles
+import time
 
 # This sample controller works a fairly simple way. It figures out
 # where the goal is. It first turns the robot until it's roughly in
@@ -42,6 +43,9 @@ class Move2GoalController(ControllerBase):
         return delta
         
     def driveToWaypoint(self, waypoint):
+        #if self.lastTime != 0:
+        #    self.totalTime = self.totalTime + time.time() - self.lastTime
+        #time_before_driving = time.time()
         vel_msg = Twist()
 
         dX = waypoint[0] - self.pose.x
@@ -56,7 +60,8 @@ class Move2GoalController(ControllerBase):
             #print("Current Pose: x: {}, y:{} , theta: {}\nGoal: x: {}, y: {}\n".format(self.pose.x, self.pose.y,
             #                                                                           self.pose.theta, waypoint[0],
             #                                                                           waypoint[1]))
-            #print("Distance Error: {}\nAngular Error: {}".format(distanceError, angleError))
+
+            #print("Distance Error: {}\nAngular Error: {}".format(distanceError, angleError)
 
             # Proportional Controller
             # linear velocity in the x-axis: only switch on when the angular error is sufficiently small
@@ -74,9 +79,10 @@ class Move2GoalController(ControllerBase):
             #print("Linear Velocity: {}\nAngular Velocity: {}\n\n".format(vel_msg.linear.x, math.degrees(vel_msg.angular.z)))
             # Publishing our vel_msg
             self.velocityPublisher.publish(vel_msg)
+            time_before_drawing = time.time()
             if (self.plannerDrawer is not None):
                 self.plannerDrawer.flushAndUpdateWindow()
-                
+            self.totalDrawingTime += time.time() - time_before_drawing
             self.rate.sleep()
 
             distanceError = sqrt(pow((waypoint[0] - self.pose.x), 2) + pow((waypoint[1] - self.pose.y), 2))
@@ -87,6 +93,7 @@ class Move2GoalController(ControllerBase):
             #self.totalDistance = self.totalDistance + abs(temp_d - distanceError)
             #temp_a = angleError
             #temp_d = distanceError
+
             #print("Total Angle: {}\n".format(self.totalAngle*180/math.pi))
             #print("Total Distance: {}\n".format(self.totalDistance))
             #..........
@@ -95,6 +102,7 @@ class Move2GoalController(ControllerBase):
         vel_msg.linear.x = 0
         vel_msg.angular.z = 0
         self.velocityPublisher.publish(vel_msg)
+        #self.totalTime += time.time()-time_before_driving - self.totalDrawingTime
 
     def rotateToGoalOrientation(self, goalOrientation):
         vel_msg = Twist()
@@ -113,9 +121,11 @@ class Move2GoalController(ControllerBase):
 
             # Publishing our vel_msg
             self.velocityPublisher.publish(vel_msg)
+            time_before_drawing = time.time()
             if (self.plannerDrawer is not None):
                 self.plannerDrawer.flushAndUpdateWindow()
-                
+            self.totalDrawingTime += time.time() - time_before_drawing
+
             self.rate.sleep()
             angleError = self.shortestAngularDistance(self.pose.theta, goalOrientation)
 

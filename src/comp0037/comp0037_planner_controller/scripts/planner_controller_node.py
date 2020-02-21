@@ -2,6 +2,7 @@
 import rospy
 import threading
 import math
+import time
 
 # Robot pose
 from geometry_msgs.msg import Pose
@@ -116,7 +117,7 @@ class PlannerControllerNode(object):
         self.robotController.drivePathToGoal(path, goal.theta, self.planner.getPlannerDrawer())
 
         return True
-    
+
     def run(self):
 
         # First set up the occupancy grid

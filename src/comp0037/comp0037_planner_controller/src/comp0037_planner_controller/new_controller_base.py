@@ -11,7 +11,7 @@ import math
 
 # This is the base class of the controller which moves the robot to its goal.
 
-class ControllerBase(object):
+class NewControllerBase(object):
 
     def __init__(self, occupancyGrid):
 
@@ -51,6 +51,18 @@ class ControllerBase(object):
         self.totalDistance = 0
         self.totalTime = 0
         self.lastTime = 0
+
+    def resetLine(self, path, num):
+        if num == 0:
+            cell = path.waypoints[0]
+            waypoint = self.occupancyGrid.getWorldCoordinatesFromCellCoordinates(cell.coords)
+            return waypoint, self.pose.x-waypoint[0], self.pose.y-waypoint[1]
+        
+        cell = path.waypoints[num-1]
+        waypoint = self.occupancyGrid.getWorldCoordinatesFromCellCoordinates(cell.coords)
+        cell_2 = path.waypoints[num]
+        waypoint_2 = self.occupancyGrid.getWorldCoordinatesFromCellCoordinates(cell_2.coords)
+        return waypoint_2, waypoint[0]-waypoint_2[0], waypoint[1]-waypoint_2[1]
     #........
 
     # Get the pose of the robot. Store this in a Pose2D structure because
@@ -119,14 +131,25 @@ class ControllerBase(object):
 
         rospy.loginfo('Driving path to goal with ' + str(len(path.waypoints)) + ' waypoint(s)')
         time_before_driving = time.time()
+        #changes
+        pre_waypoint, dX, dY = self.resetLine(path, 0)
+        #..........
         # Drive to each waypoint in turn
         for waypointNumber in range(1, len(path.waypoints)):
             cell = path.waypoints[waypointNumber]
             waypoint = self.occupancyGrid.getWorldCoordinatesFromCellCoordinates(cell.coords)
-            rospy.loginfo("Driving to waypoint (%f, %f)", waypoint[0], waypoint[1])
-            self.driveToWaypoint(waypoint)
-            #print("Total Angle: {}".format(self.totalAngle*180/math.pi))
-            #print("Total Distance: {}".format(self.totalDistance))
+            #changes
+            dX_temp = pre_waypoint[0] - waypoint[0]
+            dY_temp = pre_waypoint[1] - waypoint[1]
+            if dX_temp != dX or dY_temp != dY:
+            #..........
+                rospy.loginfo("Driving to waypoint (%f, %f)", pre_waypoint[0], pre_waypoint[1])
+                self.driveToWaypoint(pre_waypoint)
+                #print("Total Angle: {}".format(self.totalAngle*180/math.pi))
+                #print("Total Distance: {}".format(self.totalDistance))
+                pre_waypoint, dX, dY = self.resetLine(path, waypointNumber)
+            else:
+                pre_waypoint = waypoint
             # Handle ^C
             if rospy.is_shutdown() is True:
                 break

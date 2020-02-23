@@ -4,7 +4,7 @@ from geometry_msgs.msg  import Twist
 from geometry_msgs.msg  import Pose
 from math import pow,atan2,sqrt
 from comp0037_planner_controller.planned_path import PlannedPath
-from comp0037_planner_controller.controller_base import ControllerBase
+from comp0037_planner_controller.new_controller_base import NewControllerBase
 import math
 import angles
 import time
@@ -14,10 +14,10 @@ import time
 # the correct direction and then keeps driving. It monitors the
 # angular error and trims it as it goes.
 
-class Move2GoalController(ControllerBase):
+class NewController(NewControllerBase):
 
     def __init__(self, occupancyGrid):
-        ControllerBase.__init__(self, occupancyGrid)
+        NewControllerBase.__init__(self, occupancyGrid)
         
         # Get the proportional gain settings
         self.distanceErrorGain = rospy.get_param('distance_error_gain', 1)
@@ -55,6 +55,11 @@ class Move2GoalController(ControllerBase):
             # Proportional Controller
             # linear velocity in the x-axis: only switch on when the angular error is sufficiently small
             if math.fabs(angleError) < self.driveAngleErrorTolerance:
+                if distanceError < 1:
+                    self.distanceErrorGain = rospy.get_param('distance_error_gain', 1)
+                else:
+                    self.distanceErrorGain = rospy.get_param('distance_error_gain', 5)
+
                 vel_msg.linear.x = max(0.0, min(self.distanceErrorGain * distanceError, 10.0))
                 vel_msg.linear.y = 0
                 vel_msg.linear.z = 0

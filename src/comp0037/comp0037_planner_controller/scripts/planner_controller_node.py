@@ -22,7 +22,8 @@ from comp0037_planner_controller.fifo_planner import FIFOPlanner
 
 # The controller to drive the robot along the path
 from comp0037_planner_controller.move2goal_controller import Move2GoalController
-from comp0037_planner_controller.new_controller import NewController
+from comp0037_planner_controller.straight_line_controller import StraightLineController
+from comp0037_planner_controller.straight_line_speed_controller import StraightLineSpeedController
 
 # This class interfaces with the planner and the controller
 class PlannerControllerNode(object):
@@ -60,7 +61,8 @@ class PlannerControllerNode(object):
         
     def createRobotController(self):
         #self.robotController = Move2GoalController(self.occupancyGrid)
-        self.robotController = NewController(self.occupancyGrid)
+        self.robotController = StraightLineController(self.occupancyGrid)
+        #self.robotController = StraightLineSpeedController(self.occupancyGrid)
 
     def handleDriveToGoal(self, goal):
         # Report to the main loop that we have a new goal

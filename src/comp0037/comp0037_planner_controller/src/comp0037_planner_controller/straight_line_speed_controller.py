@@ -14,7 +14,7 @@ import time
 # the correct direction and then keeps driving. It monitors the
 # angular error and trims it as it goes.
 
-class NewController(NewControllerBase):
+class StraightLineSpeedController(NewControllerBase):
 
     def __init__(self, occupancyGrid):
         NewControllerBase.__init__(self, occupancyGrid)

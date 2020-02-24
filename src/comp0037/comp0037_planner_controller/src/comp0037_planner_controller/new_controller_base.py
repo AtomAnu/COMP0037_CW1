@@ -154,6 +154,10 @@ class NewControllerBase(object):
             if rospy.is_shutdown() is True:
                 break
         
+        # Driving to the last waypoint
+        rospy.loginfo("Driving to waypoint (%f, %f)", pre_waypoint[0], pre_waypoint[1])
+        self.driveToWaypoint(pre_waypoint)
+
         rospy.loginfo('Rotating to goal orientation (' + str(goalOrientation) + ')')
 
         # Finish off by rotating the robot to the final configuration

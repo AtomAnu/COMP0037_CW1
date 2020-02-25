@@ -46,12 +46,6 @@ class StraightLineSpeedController(NewControllerBase):
         angleError = self.shortestAngularDistance(self.pose.theta, atan2(dY, dX))
 
         while (distanceError >= self.distanceErrorTolerance) & (not rospy.is_shutdown()):
-            #print("Current Pose: x: {}, y:{} , theta: {}\nGoal: x: {}, y: {}\n".format(self.pose.x, self.pose.y,
-            #                                                                           self.pose.theta, waypoint[0],
-            #                                                                           waypoint[1]))
-
-            #print("Distance Error: {}\nAngular Error: {}".format(distanceError, angleError)
-
             # Proportional Controller
             # linear velocity in the x-axis: only switch on when the angular error is sufficiently small
             if math.fabs(angleError) < self.driveAngleErrorTolerance:
@@ -69,8 +63,6 @@ class StraightLineSpeedController(NewControllerBase):
             vel_msg.angular.y = 0
             vel_msg.angular.z = max(-5.0, min(self.angleErrorGain * angleError, 5.0))
             
-            
-            #print("Linear Velocity: {}\nAngular Velocity: {}\n\n".format(vel_msg.linear.x, math.degrees(vel_msg.angular.z)))
             # Publishing our vel_msg
             self.velocityPublisher.publish(vel_msg)
             time_before_drawing = time.time()
@@ -96,8 +88,6 @@ class StraightLineSpeedController(NewControllerBase):
         angleError = self.shortestAngularDistance(self.pose.theta, goalOrientation)
 
         while (math.fabs(angleError) >= self.goalAngleErrorTolerance) & (not rospy.is_shutdown()):
-            #print 'Angular Error: ' + str(angleError)
-
             # angular velocity in the z-axis:
             vel_msg.angular.x = 0
             vel_msg.angular.y = 0

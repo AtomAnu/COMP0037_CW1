@@ -85,7 +85,6 @@ class NewControllerBase(object):
         #changes
         if pose.theta > math.pi:
             pose.theta = pose.theta - 2 * math.pi
-        #self.totalAngle = self.totalAngle + abs(self.pose.theta - pose.theta)
         angle_diff = abs(self.pose.theta - pose.theta)
         if angle_diff > math.pi:
             self.totalAngle = self.totalAngle + 2 * math.pi - angle_diff
@@ -96,13 +95,6 @@ class NewControllerBase(object):
         self.pose = pose
 
         self.totalCallBackTime += time.time() - start_time
-        #print("Callback: {}".format(self.totalCallBackTime))
-        #print(self.pose)
-        #print("Total Angle: {}".format(self.totalAngle*180/math.pi))
-        #print("Total Distance: {}".format(self.totalDistance))
-        #print("Total Time: {}".format(self.totalTime))
-        #self.lastTime = time.time()
-        #self.totalExeTime += time.time()-exe_start_time
         #..........
 
     # Return the most up-to-date pose of the robot
@@ -145,8 +137,6 @@ class NewControllerBase(object):
             #..........
                 rospy.loginfo("Driving to waypoint (%f, %f)", pre_waypoint[0], pre_waypoint[1])
                 self.driveToWaypoint(pre_waypoint)
-                #print("Total Angle: {}".format(self.totalAngle*180/math.pi))
-                #print("Total Distance: {}".format(self.totalDistance))
                 pre_waypoint, dX, dY = self.resetLine(path, waypointNumber)
             else:
                 pre_waypoint = waypoint

@@ -6,19 +6,46 @@ from comp0037_planner_controller.occupancy_grid import OccupancyGrid
 import map_getter
 import rospy
 
+from nav_msgs.srv import GetMap
 # Initialise node
 rospy.init_node('A_Star_Sq_Euclidean_standalone', anonymous=True)
 
 # Mapgetter  helps load maps off the map server
+"""
+****** UNCOMMENT THE TWO LINES BELOW FOR ALL MAPS EXCEPT FACTORY MAP
+"""
 mapGetter = map_getter.MapGetter()
 occupancyGrid = mapGetter.getMapFromServer()
 
-#for x in xrange(81,83):
-#    for y in xrange(3, 7):
-#        occupancyGrid.setCell(x, y, 1)
-
+"""
+****** UNCOMMENT THE TWO LINES BELOW FOR EMPTY MAP ONLY
+"""
+#Add a wall to the empty map
 for y in xrange(2, 57):
     occupancyGrid.setCell(45, y, 1)
+
+"""
+****** FOR FACTORY MAP ONLY
+"""
+#rospy.loginfo('Waiting for static_map to become available.')
+#rospy.wait_for_service('static_map') 
+#mapServer = rospy.ServiceProxy('static_map', GetMap)
+#rospy.loginfo('Found static_map; requesting map data')
+
+# Query the map status
+#response = mapServer()
+#map = response.map
+#rospy.loginfo('Got map data')
+
+# Allocate the occupancy grid and set the data from the array sent back by the map server
+#occupancyGrid = OccupancyGrid(map.info.width, map.info.height, map.info.resolution)
+#occupancyGrid.setScale(rospy.get_param('plan_scale', 5))
+#occupancyGrid.setFromDataArrayFromMapServer(map.data)
+#occupancyGrid.expandObstaclesToAccountForCircularRobotOfRadius(0.2)
+
+"""
+****** UP TO HERE
+"""
 
 start = rospy.get_param("start_pose")
 goal = rospy.get_param("goal_pose")

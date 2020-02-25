@@ -3,15 +3,8 @@
 from cell_based_forward_search import CellBasedForwardSearch
 from collections import deque
 
-# changes
 from math import *
 import numpy as np
-#..........
-
-# This class implements the FIFO - or breadth first search - planning
-# algorithm. It works by using a double ended queue: cells are pushed
-# onto the back of the queue, and are popped from the front of the
-# queue.
 
 class AStarManhattanPlanner(CellBasedForwardSearch):
 
@@ -74,9 +67,7 @@ class AStarManhattanPlanner(CellBasedForwardSearch):
 
     def computeCost(self, cell, parentCell):
         if (parentCell is None):
-            #cell.pathCost = 0
             return 0
-        #cell.pathCost = parentCell.pathCost + self.computeLStageAdditiveCost(cell, parentCell)
         return parentCell.pathCost + self.computeLStageAdditiveCost(cell, parentCell)
     
     def setCost(self, cell, cost):
@@ -86,7 +77,7 @@ class AStarManhattanPlanner(CellBasedForwardSearch):
         dx = abs(cell.coords[0]-self.goal.coords[0])
         dy = abs(cell.coords[1]-self.goal.coords[1])
 
-        return (dx+dy)
+        return 10*(dx+dy)
 
     def checkParent(self):
         for cell in self.fifoQueue:
@@ -111,14 +102,10 @@ class AStarManhattanPlanner(CellBasedForwardSearch):
                 self.fifoQueue.rotate(-index)
                 self.fifoQueue.appendleft(cell)
                 self.fifoQueue.rotate(index)
-        #print("Insert done!")
-        #self.checkParent()
     #..........
 
     # Simply put on the end of the queue
     def pushCellOntoQueue(self, cell):
-        # self.fifoQueue.append(cell)
-
         # changes
         self.insert(cell)
         self.updateMaxQueueLength(1)
@@ -139,14 +126,9 @@ class AStarManhattanPlanner(CellBasedForwardSearch):
         return cell
 
     def resolveDuplicate(self, cell, parentCell):
-        #print(1)
-        #self.checkParent()
         temp = cell.pathCost
         if self.computeCost(cell, parentCell) < temp:
             cell.parent = parentCell
             if (cell in self.fifoQueue):
                 self.fifoQueue.remove(cell)
                 self.insert(cell)
-        #print(2)
-        #self.checkParent()
-        #pass

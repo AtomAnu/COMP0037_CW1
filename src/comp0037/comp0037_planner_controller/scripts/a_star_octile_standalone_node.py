@@ -11,8 +11,15 @@ from nav_msgs.srv import GetMap
 rospy.init_node('A_Star_Octile_standalone', anonymous=True)
 
 # Mapgetter  helps load maps off the map server
+"""
+****** UNCOMMENT THE TWO LINES BELOW FOR ALL MAPS EXCEPT FACTORY MAP
+"""
 #mapGetter = map_getter.MapGetter()
 #occupancyGrid = mapGetter.getMapFromServer()
+
+"""
+****** FOR FACTORY MAP ONLY
+"""
 rospy.loginfo('Waiting for static_map to become available.')
 rospy.wait_for_service('static_map') 
 mapServer = rospy.ServiceProxy('static_map', GetMap)
@@ -28,6 +35,10 @@ occupancyGrid = OccupancyGrid(map.info.width, map.info.height, map.info.resoluti
 occupancyGrid.setScale(rospy.get_param('plan_scale', 5))
 occupancyGrid.setFromDataArrayFromMapServer(map.data)
 occupancyGrid.expandObstaclesToAccountForCircularRobotOfRadius(0.2)
+
+"""
+****** UP TO HERE
+"""
 
 start = rospy.get_param("start_pose")
 goal = rospy.get_param("goal_pose")

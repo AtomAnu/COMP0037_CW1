@@ -25,11 +25,6 @@ class Move2GoalController(ControllerBase):
 
         self.driveAngleErrorTolerance = math.radians(rospy.get_param('angle_error_tolerance', 1))
 
-        #changes
-        self.totalAngle = 0
-        self.totalDistance = 0
-        #..........
-
     def get_distance(self, goal_x, goal_y):
         distance = sqrt(pow((goal_x - self.pose.x), 2) + pow((goal_y - self.pose.y), 2))
         return distance
@@ -43,19 +38,13 @@ class Move2GoalController(ControllerBase):
         return delta
         
     def driveToWaypoint(self, waypoint):
-        #if self.lastTime != 0:
-        #    self.totalTime = self.totalTime + time.time() - self.lastTime
-        #time_before_driving = time.time()
         vel_msg = Twist()
 
         dX = waypoint[0] - self.pose.x
         dY = waypoint[1] - self.pose.y
         distanceError = sqrt(dX * dX + dY * dY)
         angleError = self.shortestAngularDistance(self.pose.theta, atan2(dY, dX))
-        #changes
-        #temp_a = angleError
-        #temp_d = distanceError
-        #..........
+
         while (distanceError >= self.distanceErrorTolerance) & (not rospy.is_shutdown()):
             #print("Current Pose: x: {}, y:{} , theta: {}\nGoal: x: {}, y: {}\n".format(self.pose.x, self.pose.y,
             #                                                                           self.pose.theta, waypoint[0],
@@ -88,21 +77,11 @@ class Move2GoalController(ControllerBase):
             distanceError = sqrt(pow((waypoint[0] - self.pose.x), 2) + pow((waypoint[1] - self.pose.y), 2))
             angleError = self.shortestAngularDistance(self.pose.theta,
                                                       atan2(waypoint[1] - self.pose.y, waypoint[0] - self.pose.x))
-            #changes
-            #self.totalAngle = self.totalAngle + abs(temp_a - angleError)
-            #self.totalDistance = self.totalDistance + abs(temp_d - distanceError)
-            #temp_a = angleError
-            #temp_d = distanceError
-
-            #print("Total Angle: {}\n".format(self.totalAngle*180/math.pi))
-            #print("Total Distance: {}\n".format(self.totalDistance))
-            #..........
 
         # Make sure the robot is stopped once we reach the destination.
         vel_msg.linear.x = 0
         vel_msg.angular.z = 0
         self.velocityPublisher.publish(vel_msg)
-        #self.totalTime += time.time()-time_before_driving - self.totalDrawingTime
 
     def rotateToGoalOrientation(self, goalOrientation):
         vel_msg = Twist()

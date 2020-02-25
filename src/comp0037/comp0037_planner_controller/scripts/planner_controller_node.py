@@ -33,6 +33,8 @@ from comp0037_planner_controller.straight_line_speed_controller import StraightL
 
 # The controller to drive the robot along the path
 from comp0037_planner_controller.move2goal_controller import Move2GoalController
+from comp0037_planner_controller.straight_line_controller import StraightLineController
+from comp0037_planner_controller.straight_line_speed_controller import StraightLineSpeedController
 
 # This class interfaces with the planner and the controller
 class PlannerControllerNode(object):

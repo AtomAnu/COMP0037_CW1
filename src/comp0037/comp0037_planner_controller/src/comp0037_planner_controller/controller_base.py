@@ -8,7 +8,6 @@ from math import pow,atan2,sqrt,pi
 from planned_path import PlannedPath
 import time
 import math
-import numpy as np
 
 # This is the base class of the controller which moves the robot to its goal.
 
@@ -40,16 +39,16 @@ class ControllerBase(object):
         self.rate = rospy.Rate(10)
 
         #changes
-        self.totalAngle_2 = 0
-        self.totalDistance_2 = 0
+        self.totalAngle = 0
+        self.totalDistance = 0
         self.totalDrawingTime = 0
         self.totalCallBackTime = 0
         #..........
 
     #changes
     def resetpara(self):
-        self.totalAngle_2 = 0
-        self.totalDistance_2 = 0
+        self.totalAngle = 0
+        self.totalDistance = 0
         self.totalTime = 0
         self.lastTime = 0
     #........
@@ -59,8 +58,6 @@ class ControllerBase(object):
     # inside the control system.
     def odometryCallback(self, odometry):
         #changes
-        #if self.lastTime != 0:
-        #    self.totalTime = self.totalTime + time.time() - self.lastTime
         start_time = time.time()
         #..........
         odometryPose = odometry.pose.pose
@@ -74,23 +71,23 @@ class ControllerBase(object):
         pose.y = position.y
         pose.theta = 2 * atan2(orientation.z, orientation.w)
         #changes
-        if pose.theta > np.pi:
-            pose.theta = pose.theta - 2 * np.pi
-        #self.totalAngle_2 = self.totalAngle_2 + abs(self.pose.theta - pose.theta)
+        if pose.theta > math.pi:
+            pose.theta = pose.theta - 2 * math.pi
+        #self.totalAngle = self.totalAngle + abs(self.pose.theta - pose.theta)
         angle_diff = abs(self.pose.theta - pose.theta)
-        if angle_diff > np.pi:
-            self.totalAngle_2 = self.totalAngle_2 + 2 * np.pi - angle_diff
+        if angle_diff > math.pi:
+            self.totalAngle = self.totalAngle + 2 * math.pi - angle_diff
         else:
-            self.totalAngle_2 = self.totalAngle_2 + angle_diff
+            self.totalAngle = self.totalAngle + angle_diff
 
-        self.totalDistance_2 = self.totalDistance_2 + abs(sqrt(pow((pose.x - self.pose.x), 2) + pow((pose.y - self.pose.y), 2)))
+        self.totalDistance = self.totalDistance + abs(sqrt(pow((pose.x - self.pose.x), 2) + pow((pose.y - self.pose.y), 2)))
         self.pose = pose
 
         self.totalCallBackTime += time.time() - start_time
         #print("Callback: {}".format(self.totalCallBackTime))
         #print(self.pose)
-        #print("Total Angle 2: {}".format(self.totalAngle_2*180/math.pi))
-        #print("Total Distance 2: {}".format(self.totalDistance_2))
+        #print("Total Angle: {}".format(self.totalAngle*180/math.pi))
+        #print("Total Distance: {}".format(self.totalDistance))
         #print("Total Time: {}".format(self.totalTime))
         #self.lastTime = time.time()
         #self.totalExeTime += time.time()-exe_start_time
@@ -114,16 +111,16 @@ class ControllerBase(object):
     def drivePathToGoal(self, path, goalOrientation, plannerDrawer):
         #changes
         self.resetpara()
-        print("Total Angle: {}".format(self.totalAngle_2*180/math.pi))
-        print("Total Distance: {}".format(self.totalDistance_2))
+        print("Total Angle: {}".format(self.totalAngle*180/math.pi))
+        print("Total Distance: {}".format(self.totalDistance))
         #..........
         
         self.plannerDrawer = plannerDrawer
-        
+
         rospy.loginfo('Driving path to goal with ' + str(len(path.waypoints)) + ' waypoint(s)')
         time_before_driving = time.time()
         # Drive to each waypoint in turn
-        for waypointNumber in range(0, len(path.waypoints)):
+        for waypointNumber in range(1, len(path.waypoints)):
             cell = path.waypoints[waypointNumber]
             waypoint = self.occupancyGrid.getWorldCoordinatesFromCellCoordinates(cell.coords)
             rospy.loginfo("Driving to waypoint (%f, %f)", waypoint[0], waypoint[1])
@@ -133,15 +130,15 @@ class ControllerBase(object):
             # Handle ^C
             if rospy.is_shutdown() is True:
                 break
-        total_driving_time = time.time()-time_before_driving-self.totalDrawingTime
-        print("Total Driving Time: {}".format(total_driving_time))
-        print("Total Callback Time: {}".format(self.totalCallBackTime))
+        
         rospy.loginfo('Rotating to goal orientation (' + str(goalOrientation) + ')')
-
-        print("Total Angle: {}".format(self.totalAngle_2*180/math.pi))
-        print("Total Distance: {}".format(self.totalDistance_2))
 
         # Finish off by rotating the robot to the final configuration
         if rospy.is_shutdown() is False:
             self.rotateToGoalOrientation(goalOrientation)
- 
+
+        total_driving_time = time.time()-time_before_driving-self.totalDrawingTime
+        print("Total Driving Time: {}".format(total_driving_time))
+        print("Total Callback Time: {}".format(self.totalCallBackTime))
+        print("Total Angle: {}".format(self.totalAngle*180/math.pi))
+        print("Total Distance: {}".format(self.totalDistance))

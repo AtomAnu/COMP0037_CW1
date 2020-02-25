@@ -77,7 +77,7 @@ class AStarManhattanPlanner(CellBasedForwardSearch):
         dx = abs(cell.coords[0]-self.goal.coords[0])
         dy = abs(cell.coords[1]-self.goal.coords[1])
 
-        return 10*(dx+dy)
+        return (dx+dy)
 
     def checkParent(self):
         for cell in self.fifoQueue:

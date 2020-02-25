@@ -72,7 +72,7 @@ class GreedyPlanner(CellBasedForwardSearch):
         
         return total_angle
 
-    def insert(self, cell):
+     def insert(self, cell):
         if len(self.fifoQueue) == 0:
             self.fifoQueue.append(cell)
         else:

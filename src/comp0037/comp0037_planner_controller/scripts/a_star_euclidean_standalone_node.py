@@ -13,6 +13,9 @@ rospy.init_node('A_Star_Euclidean_standalone', anonymous=True)
 mapGetter = map_getter.MapGetter()
 occupancyGrid = mapGetter.getMapFromServer()
 
+#for y in xrange(2, 57):
+#    occupancyGrid.setCell(45, y, 1)
+
 start = rospy.get_param("start_pose")
 goal = rospy.get_param("goal_pose")
 

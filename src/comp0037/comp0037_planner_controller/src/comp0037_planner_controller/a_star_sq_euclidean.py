@@ -13,7 +13,7 @@ import numpy as np
 # onto the back of the queue, and are popped from the front of the
 # queue.
 
-class AStarManhattonPlanner(CellBasedForwardSearch):
+class AStarSqEuclideanPlanner(CellBasedForwardSearch):
 
     # Construct the new planner object
     def __init__(self, title, occupancyGrid):
@@ -82,12 +82,12 @@ class AStarManhattonPlanner(CellBasedForwardSearch):
     
     def setCost(self, cell, cost):
         cell.pathCost = cost
-
-    def manhatton_heuristic(self, cell):
+    
+    def sq_euclidean_heuristic(self, cell):
         dx = abs(cell.coords[0]-self.goal.coords[0])
         dy = abs(cell.coords[1]-self.goal.coords[1])
 
-        return dx+dy
+        return dx*dx + dy*dy
 
     def checkParent(self):
         for cell in self.fifoQueue:
@@ -102,7 +102,7 @@ class AStarManhattonPlanner(CellBasedForwardSearch):
             index = -1
             for i in range(len(self.fifoQueue)):
                 cost = self.computeCost(cell, cell.parent)
-                if cost + self.manhatton_heuristic(cell) <= self.fifoQueue[i].pathCost + self.manhatton_heuristic(self.fifoQueue[i]):
+                if cost + self.sq_euclidean_heuristic(cell) <= self.fifoQueue[i].pathCost + self.sq_euclidean_heuristic(self.fifoQueue[i]):
                     index = i
                     self.setCost(cell, cost)
                     break
@@ -147,7 +147,7 @@ class AStarManhattonPlanner(CellBasedForwardSearch):
             cell.parent = parentCell
             if (cell in self.fifoQueue):
                 self.fifoQueue.remove(cell)
-                self.insert(cell)
+                self.insert(cell)  
         #print(2)
         #self.checkParent()
         #pass

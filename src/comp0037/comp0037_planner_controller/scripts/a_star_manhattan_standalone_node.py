@@ -1,13 +1,13 @@
 #! /usr/bin/env python
 
 # Import the needed types.
-from comp0037_planner_controller.a_star_manhatton import AStarManhattonPlanner
+from comp0037_planner_controller.a_star_manhattan import AStarManhattanPlanner
 from comp0037_planner_controller.occupancy_grid import OccupancyGrid
 import map_getter
 import rospy
 
 # Initialise node
-rospy.init_node('A_Star_Manhatton_standalone', anonymous=True)
+rospy.init_node('A_Star_Manhattan_standalone', anonymous=True)
 
 # Mapgetter  helps load maps off the map server
 mapGetter = map_getter.MapGetter()
@@ -18,7 +18,7 @@ goal = rospy.get_param("goal_pose")
 
 # Create the planner. The first field is the title which will appear in the
 # graphics window, the second the occupancy grid used.
-planner = AStarManhattonPlanner('A Star Manhatton Search', occupancyGrid)
+planner = AStarManhattanPlanner('A Star Manhattan Search', occupancyGrid)
 
 # This causes the planner to slow down and pause for things like key entries
 planner.setRunInteractively(True)

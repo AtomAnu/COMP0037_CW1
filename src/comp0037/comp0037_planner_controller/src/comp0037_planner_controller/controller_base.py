@@ -128,8 +128,8 @@ class ControllerBase(object):
             waypoint = self.occupancyGrid.getWorldCoordinatesFromCellCoordinates(cell.coords)
             rospy.loginfo("Driving to waypoint (%f, %f)", waypoint[0], waypoint[1])
             self.driveToWaypoint(waypoint)
-            print("Total Angle: {}".format(self.totalAngle_2*180/math.pi))
-            print("Total Distance: {}".format(self.totalDistance_2))
+            #print("Total Angle: {}".format(self.totalAngle_2*180/math.pi))
+            #print("Total Distance: {}".format(self.totalDistance_2))
             # Handle ^C
             if rospy.is_shutdown() is True:
                 break

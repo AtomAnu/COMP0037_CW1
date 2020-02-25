@@ -6,7 +6,7 @@
 
   <!-- Scenario -->
   <arg name="map_file" default="$(find comp0037_resources)/maps/factory.yaml"/>
-  <arg name="goal_file" default="$(find comp0037_resources)/maps/factory_goals.txt"/>
+  <arg name="goal_file" default="$(find comp0037_resources)/maps/factory_one_goal.txt"/>
 
 
   <node pkg="comp0037_time_server" name="time_server" type="time_server_node.py"/>

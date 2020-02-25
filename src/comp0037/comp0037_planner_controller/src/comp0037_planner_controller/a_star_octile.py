@@ -87,7 +87,7 @@ class AStarOctilePlanner(CellBasedForwardSearch):
         dx = abs(cell.coords[0]-self.goal.coords[0])
         dy = abs(cell.coords[1]-self.goal.coords[1])
 
-        return max(dx,dy)+(np.sqrt(2)-1)*min(dx,dy)
+        return 10*(max(dx,dy)+(np.sqrt(2)-1)*min(dx,dy))
 
     def checkParent(self):
         for cell in self.fifoQueue:
